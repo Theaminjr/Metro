@@ -19,6 +19,7 @@ def register(loggedin_as):
     nationalid = input("nationalid ==> ")
     if User.createuser(fullname,password,nationalid) :
          loggedin_as = User.authenticate(nationalid, password)
+         save_users()
          return loggedin_as
 
 def adminastration(loggedin_as):
@@ -44,19 +45,25 @@ def buyticket(loggedin_as):
     if choice == 1:
         account = banklogin(loggedin_as)
         account.withdrawl(3000)
-        loggedin_as.card = Ticket.onetrip()
+        loggedin_as.card = Ticket.onetrip(loggedin_as)
+        save_cards()
+        save_users()
 
     if choice == 2 :
         account = banklogin(loggedin_as)
         charge = int(input("How much you want to charge it ==> "))
         account.withdrawl(charge)
-        loggedin_as.card = Ticket.chargable(charge)    
+        loggedin_as.card = Ticket.chargable(charge,loggedin_as)    
+        save_cards()
+        save_users()
 
     if choice == 3:
         account = banklogin(loggedin_as)
         charge = int(input("How much you want to charge it ==> "))
         account.withdrawl(charge)
-        loggedin_as.card = Ticket.date_charge(charge)     
+        loggedin_as.card = Ticket.date_charge(charge,loggedin_as)
+        save_cards()
+        save_users()     
 
     return loggedin_as
 
@@ -68,6 +75,7 @@ def newtrip(loggedin_as):
     price = int(input("price : "))
     createdby = loggedin_as
     Trip.createtrip(departure, arrival, origin, destination, price , createdby)
+    save_trips()
     return loggedin_as
 
 def choosetrip(loggedin_as):
@@ -86,6 +94,7 @@ def buytrip(loggedin_as):
         time.sleep(5)
     elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
         loggedin_as.card.balance = loggedin_as.card.balance - trip.price
+        save_users()
         if loggedin_as.card.type == "onetime":
             loggedin_as.card = None
     else:
@@ -104,17 +113,20 @@ def edittrip(loggedin_as):
     price = int(input("price : "))
     createdby = loggedin_as
     Trip.edittrip(trip, departure, arrival, origin, destination, price , createdby)
+    save_trips()
     return loggedin_as
 
 def withdrawl(loggedin_as):
     amount = int(input("How much you want to withdraw ==> "))
     loggedin_as.withdraw(amount)
+    save_bank()
     return loggedin_as
     
 
 def deposit(loggedin_as):
     amount = int(input("How much you want to deposit ==> "))
     loggedin_as.deposit(amount)
+    save_bank()
     return loggedin_as
 
 def transaction(loggedin_as):
@@ -122,6 +134,7 @@ def transaction(loggedin_as):
     reciever = input("Please enter national id of the reciever ==> ")
     reciever = BankAccount.bankaccounts[reciever]
     loggedin_as.transaction(reciever,amount)
+    save_bank()
     return loggedin_as
 
 def bankregister(loggedin_as):
@@ -129,6 +142,7 @@ def bankregister(loggedin_as):
     balance = int(input("please input you balance ==> "))
     nationalid = input("please input your natioanl id ==> ")
     password = input("please input your password ==> ")
+    save_bank()
     return BankAccount.createaccount(name, balance, nationalid, password)
 
 def menu_handler(menu,loggedin_as):
@@ -139,6 +153,7 @@ def menu_handler(menu,loggedin_as):
     choice = input("what you want to do  ")
     if  choice in menu.keys():
        loggedin_as = menu[choice][1](loggedin_as)
+       save_bank()
        return loggedin_as
 
 

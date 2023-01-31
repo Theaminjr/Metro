@@ -1,5 +1,35 @@
 import uuid
 import datetime
+import pickle
+
+def save_cards():
+    with open("cards.pickle","wb") as file:
+        pickle.dump(Ticket.tickets, file)
+
+def save_trips():
+    with open("trip.pickle","wb") as file:
+        pickle.dump(Trip.trips, file)    
+
+def save_users():
+    with open("users.pickle","wb") as file:
+        pickle.dump(User.users, file)    
+
+def save_bank():
+    with open("bank.pickle","wb") as file:
+        pickle.dump(BankAccount.bankaccounts, file)
+
+
+
+
+def load_all():
+    with open("users.pickle","rb") as file:
+       User.users = pickle.load(file)
+    with open("cards.pickle","rb") as file:
+       Ticket.tickets = pickle.load( file)
+    with open("bank.pickle","rb") as file:
+       BankAccount.bankaccounts = pickle.load(file)
+    with open("trip.pickle","rb") as file:
+       Trip.trips = pickle.load(file)
 
 class User():
     users = {}
@@ -92,20 +122,26 @@ class Ticket():
         self.type = ""
     
     @classmethod
-    def onetrip (self):
+    def onetrip (self,buyer):
         expdate = datetime.datetime.now() + datetime.timedelta(days=3)
         ticket = Ticket(3000,expdate)
         ticket.type ="onetime"
+        self.tickets.append((buyer.id,ticket))
         return ticket
     
     @classmethod
-    def chargable(self,amount):
-        return Ticket(amount,datetime.datetime.max)
+    def chargable(self,amount,buyer):
+        ticket = Ticket(amount,datetime.datetime.max)
+        self.tickets.append((buyer.id,ticket))
+        return ticket
     
     @classmethod
-    def date_charge(self,amount):
+    def date_charge(self,amount,buyer):
          expdate = datetime.datetime.now() + datetime.timedelta(days=30)
-         return Ticket(amount,expdate)
+         ticket = Ticket(amount,expdate)
+         self.tickets.append((buyer.id,ticket))
+         return ticket
+
     def __repr__(self):
         return f"your balance is {self.balance} and will expire by {self.expiration}"
 

@@ -29,14 +29,14 @@ menu:
 from logic import * 
 from menu import *
 from admin import *
-
-User.createuser("Amin Najari", "1378","0311987540")
-BankAccount.createaccount("amin", 300000, "0311987540", "password")
-Trip.createtrip(1, 12, "karaj", "tehran", 3000, "amin")
+import pickle
+from debug import debug_mode
 
 
 
-menu1 = {"1" : (" Login" , login) , "2" : (" Register tp metro",register) ,  "3":(" Bank login" , banklogin)  ,"4":(" Bank Register" , bankregister), "5":(" Adminastrator",adminastration) }
+debug_mode(True)
+
+menu1 = {"1" : (" Login" , login) , "2" : (" Register t0 metro",register) ,  "3":(" Bank login" , banklogin)  ,"4":(" Bank Register" , bankregister), "5":(" Adminastrator",adminastration) }
 menu2 = { "1" : (" Get ticket" , buyticket) , "2" :(" Buy trip",buytrip) , "3": (" Exit",exit) }
 menu3 = {"1" : (" New trip",newtrip) , "2" : (" Edit trip" , edittrip) , "3" : (" Exit",exit)}
 menu4 = {"1" : (" Withdrawl",withdrawl), "2":(" Deposit",deposit) , "3" : (" Transaction",transaction) ,"4": (" exit",exit)}
@@ -44,10 +44,9 @@ menu4 = {"1" : (" Withdrawl",withdrawl), "2":(" Deposit",deposit) , "3" : (" Tra
 
 
 
-      
 
+load_all()
 loggedin_as = None
-
 while True:
    if loggedin_as == None:
       loggedin_as = menu_handler(menu1,loggedin_as)
@@ -59,7 +58,11 @@ while True:
       loggedin_as = menu_handler(menu4, loggedin_as)
    
 
-
+with open("first.pickle",'rb') as f:
+   print(pickle.load(f))
+   print(pickle.load(f))
+   print(pickle.load(f))
+   print(pickle.load(f))
 
 
 
