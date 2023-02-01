@@ -12,17 +12,11 @@ menu:
    - exit
 
 
-- 3 types of cards sould be available 
-- every card belongs to a user and should be saved in cards.pickle
-- every trip has cost and start and end date
-- users are saved in users.picke and every user has a bank account
-- users should have unique ids
-- there should be super users
-- terminal should be refreshed
-- exceptions should be handled
-- test.py should be included
-- readme
-- branches of feature and hotfix
+# CARDS ARE REPLACED EVERY TIME <Done>
+# Validation + setter getter
+# STYLING TERMINAL
+# CLEANING UP THE CODE
+# WRITTING TESTS
 
 
 '''

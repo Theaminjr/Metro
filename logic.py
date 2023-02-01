@@ -34,25 +34,28 @@ def load_all():
 
 def password_validator(password):
     pattern = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$"
-    return True if re.match(pattern, password) else False
+    if  re.match(pattern, password) == None:
+        raise Exception("Your password should be at least 8 character long and include upper and lower case letters + numbers") 
 
 def nationalid_validator(nationalid):
     pattern = "^[0-9]{6,12}$"
-    return True if re.match(pattern, nationalid) else False
+    if re.match(pattern, nationalid) == None:
+        raise Exception("your national id should be 8-12 characters long")
+
 
 def fullname_validator(fullname):
-    pattern = "^[a-zA-Z]{3,24}$"
-    return True if re.match(pattern, fullname) else False
+    pattern = "^[a-zA-Z ]{3,24}$"
+    if re.match(pattern, fullname) == None:
+        raise Exception("Name should be between 3-24 characters long")
 
 def balance_validator(balance):
     try :
         balance = int(balance)
     except ValueError:
-        return False
+        raise Exception("Your input should be an integer greater than 100")
     if balance < 100:
-        return False
-    return True
-        
+        raise Exception("Your input should be an integer greater than 100")
+    return balance    
 
 
 class User():
@@ -67,20 +70,18 @@ class User():
 
 
     def whoami(self):
-        print(f"{self.fullname} , your unique id is {self.id}")
+        return f"{self.fullname} , your unique id is {self.id}"
 
 
     def createuser(fullname,password,nationalid):
-        if fullname_validator(fullname) != True:
-            return "name should be between 3-24 characters"
-        if password_validator(password) == True and nationalid_validator(nationalid) == True:
-           User.users[nationalid] = User(fullname,password,nationalid)
-           return "success"
-        elif password_validator(password) == False:
-            return "Your password should be at least 8 character long and include upper and lower case letters + numbers"
-        else:
-            return "your national id should be 8-12 characters long"
-    
+        try:
+            fullname_validator(fullname)
+            nationalid_validator(nationalid)
+            password_validator(password)
+            User.users[nationalid] = User(fullname,password,nationalid)
+            return "success"
+        except Exception as e:
+            return e
 
     def authenticate(nationalid,password):
         if nationalid in User.users.keys():
@@ -114,40 +115,44 @@ class BankAccount():
    
     @classmethod
     def createaccount(self,name, balance, nationalid, password):
-        if fullname_validator(name) != True:
-            return "name should be between 3-24 characters"
-        if balance_validator(balance) == False:
-            return "your balance should be an integer greater than 100"
-        if password_validator(password) == True and nationalid_validator(nationalid) == True:
-            BankAccount.bankaccounts[nationalid] = BankAccount(name, balance, nationalid, password)
+        try:
+            fullname_validator(name)
+            nationalid_validator(nationalid)
+            password_validator(password)
+            balance = balance_validator(balance)
+            BankAccount.bankaccounts[nationalid] = BankAccount(name,balance,nationalid,password)
             return "success"
-        elif password_validator(password) == False :
-            return "Your password should be at least 8 character long and include upper and lower case letters + numbers"
-        else :
-            return "your national id should be 8-12 characters long"
+        except Exception as e:
+            return e
 
     def check_balance(self):
         return f"<{self.__balance}>"
 
 
     def deposit(self,other):
-        if balance_validator(balance) == False:
-            return "your balance should be an integer greater than 100"
+        try:
+           other = balance_validator(balance)
+        except Exception as e:
+            return e
         self.__balance += other
         return(f"<{self.name.title()}: {self.__balance}>")
 
 
     def withdrawl(self,other):
-        if balance_validator(balance) == False:
-            return "your balance should be an integer greater than 100"
+        try:
+           other = balance_validator(other)
+        except Exception as e:
+            return e
         self.__balance += other
         self.__balance -= other
         return(f"<{self.name.title()}: {self.__balance}>")
 
 
     def transaction(sender , reciever , amount):
-        if balance_validator(amount) == False:
-            return "your amount should be an integer greater than 100"
+        try:
+           amount = balance_validator(other)
+        except Exception as e:
+            return e
         try:
             reciever = BankAccount.bankaccounts[reciever]
         except KeyError:
@@ -183,20 +188,36 @@ class Ticket():
         ticket = Ticket(3000,expdate)
         ticket.type ="onetime"
         self.tickets.append((buyer.id,ticket))
-        return ticket
+        buyer.card = ticket
+        return "success"
     
     @classmethod
     def chargable(self,amount,buyer):
+        try:
+           amount = balance_validator(amount)
+        except Exception as e:
+            return e
+        if buyer.card != None:
+           if buyer.card.type == "chargable":
+               buyer.card.balance += amount
+               return "success"
         ticket = Ticket(amount,datetime.datetime.max)
+        ticket.type = "chargable"
         self.tickets.append((buyer.id,ticket))
-        return ticket
+        buyer.card = ticket
+        return "success"
     
     @classmethod
     def date_charge(self,amount,buyer):
-         expdate = datetime.datetime.now() + datetime.timedelta(days=30)
-         ticket = Ticket(amount,expdate)
-         self.tickets.append((buyer.id,ticket))
-         return ticket
+        try:
+           amount = balance_validator(amount)
+        except Exception as e:
+            return e
+        expdate = datetime.datetime.now() + datetime.timedelta(days=30)
+        ticket = Ticket(amount,expdate)
+        self.tickets.append((buyer.id,ticket))
+        buyer.card = ticket
+        return "success"
 
     def __repr__(self):
         return f"your balance is {self.balance} and will expire by {self.expiration}"
@@ -213,15 +234,37 @@ class Trip():
         self.createdby = createdby
     
     def createtrip(departure,arrival,origin,destination,price,createdby):
+        try:
+            balance_validator(price)
+        except Exception as e:
+            return e
         Trip.trips.append(Trip(departure , arrival, origin, destination, price ,createdby)) 
+        return "seccess"
 
     def edittrip(trip,departure,arrival,origin,destination,price,createdby):
+        try:
+            balance_validator(price)
+        except Exception as e:
+            return e
         trip.departure = departure
         trip.arrival = arrival
         trip.origin = origin
         trip.destination = destination
         trip.price = price
         trip.createdby = createdby
+        return "success"
+    @classmethod
+    def buytrip(self,trip,loggedin_as):
+      if loggedin_as.card == None :
+          return "sorry,you dont have any card"
+      elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
+          loggedin_as.card.balance = loggedin_as.card.balance - trip.price
+          save_users()
+          if loggedin_as.card.type == "onetime":
+              loggedin_as.card = None
+          return "success"   
+      else:
+          return "sorry,you dont have enough balance or your card has expired"
 
     def __repr__(self):
         return f"from {self.origin} to {self.destination} departure at {self.departure} <price:{3000}> "

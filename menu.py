@@ -49,17 +49,26 @@ def banklogin(loggedin_as):
   password = input("enter your bank account password  ")
   status  = BankAccount.bank_auth(nationalid, password)
   if status == None:
-    print("could not loggin")
+    print("could not log in")
     input(" HIT ENTER TO CONTINUE ")
-  return loggedin_as
-
+    return loggedin_as
+  else:
+    return status 
+   
 def buyticket(loggedin_as):
-    print(" 1-oneuse \n 2-chargable without expiration date \n 3-chargable with 30 days expiary date")
+    print("WARNING: only permanent cards can be recharged. if you already have other type of card it will be replaced")
+    if input("do you want to continue ? (n for no)") == "n":
+        return loggedin_as
+    print(" 1-oneuse \n 2-permanent ,chargable without expiration date \n 3-chargable with 30 days expiary date")
     choice = int(input("choose your ticket type ==> "))
+   
     if choice == 1:
         account = banklogin(loggedin_as)
         account.withdrawl(3000)
-        loggedin_as.card = Ticket.onetrip(loggedin_as)
+        status = Ticket.onetrip(loggedin_as)
+        if status != "success": account.deposit(charge) 
+        print(status)
+        input(" HIT ENTER TO CONTINUE ")
         save_cards()
         save_users()
 
@@ -67,7 +76,10 @@ def buyticket(loggedin_as):
         account = banklogin(loggedin_as)
         charge = int(input("How much you want to charge it ==> "))
         account.withdrawl(charge)
-        loggedin_as.card = Ticket.chargable(charge,loggedin_as)    
+        status = Ticket.chargable(charge,loggedin_as) 
+        if status != "success": account.deposit(charge) 
+        print(status)
+        input(" HIT ENTER TO CONTINUE ")  
         save_cards()
         save_users()
 
@@ -75,9 +87,14 @@ def buyticket(loggedin_as):
         account = banklogin(loggedin_as)
         charge = int(input("How much you want to charge it ==> "))
         account.withdrawl(charge)
-        loggedin_as.card = Ticket.date_charge(charge,loggedin_as)
+        status = Ticket.date_charge(charge,loggedin_as)
+        if status != "success": account.deposit(charge) 
+        print(status)
+        input(" HIT ENTER TO CONTINUE ")
         save_cards()
         save_users()     
+    else:
+        print("invalid choice")
 
     return loggedin_as
 
@@ -88,7 +105,9 @@ def newtrip(loggedin_as):
     destination = input("destination : ")
     price = int(input("price : "))
     createdby = loggedin_as
-    Trip.createtrip(departure, arrival, origin, destination, price , createdby)
+    status = Trip.createtrip(departure, arrival, origin, destination, price , createdby)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     save_trips()
     return loggedin_as
 
@@ -103,17 +122,9 @@ def choosetrip(loggedin_as):
 
 def buytrip(loggedin_as):
     trip = choosetrip(loggedin_as)
-    if loggedin_as.card == None :
-        print("sorry,you dont have any card")
-        input(" HIT ENTER TO CONTINUE ")
-    elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
-        loggedin_as.card.balance = loggedin_as.card.balance - trip.price
-        save_users()
-        if loggedin_as.card.type == "onetime":
-            loggedin_as.card = None
-    else:
-        print("sorry,you dont have enough balance or your card has expired")
-        input(" HIT ENTER TO CONTINUE ")
+    status = Trip.buytrip(trip,loggedin_as)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
 
 
@@ -126,7 +137,9 @@ def edittrip(loggedin_as):
     destination = input("destination : ")
     price = int(input("price : "))
     createdby = loggedin_as
-    Trip.edittrip(trip, departure, arrival, origin, destination, price , createdby)
+    status = Trip.edittrip(trip, departure, arrival, origin, destination, price , createdby)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     save_trips()
     return loggedin_as
 
