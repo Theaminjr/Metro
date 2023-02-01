@@ -13,7 +13,7 @@ menu:
 
 
 # CARDS ARE REPLACED EVERY TIME <Done>
-# Validation + setter getter
+# Validation + setter getter + data hiding
 # STYLING TERMINAL <DONE>
 # CLEANING UP THE CODE
 # WRITTING TESTS
@@ -23,6 +23,7 @@ menu:
 from logic import * 
 from menu import *
 from admin import *
+from database_funcs import *
 import pickle
 from debug import debug_mode
 

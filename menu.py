@@ -1,5 +1,6 @@
 from logic import *
 from admin import *
+from database_funcs import *
 import os
 from terminal_color import *
 
@@ -137,6 +138,7 @@ def buytrip(loggedin_as):
     if status != "success": 
         print_FAIL(status)
     print_OKGREEN(status)
+    save_users()
     input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
 

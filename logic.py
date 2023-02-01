@@ -1,61 +1,6 @@
 import uuid
 import datetime
-import pickle
-import re
-
-def save_cards():
-    with open("cards.pickle","wb") as file:
-        pickle.dump(Ticket.tickets, file)
-
-def save_trips():
-    with open("trip.pickle","wb") as file:
-        pickle.dump(Trip.trips, file)    
-
-def save_users():
-    with open("users.pickle","wb") as file:
-        pickle.dump(User.users, file)    
-
-def save_bank():
-    with open("bank.pickle","wb") as file:
-        pickle.dump(BankAccount.bankaccounts, file)
-
-
-
-
-def load_all():
-    with open("users.pickle","rb") as file:
-       User.users = pickle.load(file)
-    with open("cards.pickle","rb") as file:
-       Ticket.tickets = pickle.load( file)
-    with open("bank.pickle","rb") as file:
-       BankAccount.bankaccounts = pickle.load(file)
-    with open("trip.pickle","rb") as file:
-       Trip.trips = pickle.load(file)
-
-def password_validator(password):
-    pattern = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$"
-    if  re.match(pattern, password) == None:
-        raise Exception("Your password should be at least 8 character long and include upper and lower case letters + numbers") 
-
-def nationalid_validator(nationalid):
-    pattern = "^[0-9]{6,12}$"
-    if re.match(pattern, nationalid) == None:
-        raise Exception("your national id should be 8-12 characters long")
-
-
-def fullname_validator(fullname):
-    pattern = "^[a-zA-Z ]{3,24}$"
-    if re.match(pattern, fullname) == None:
-        raise Exception("Name should be between 3-24 characters long")
-
-def balance_validator(balance):
-    try :
-        balance = int(balance)
-    except ValueError:
-        raise Exception("Your input should be an integer greater than 100")
-    if balance < 100:
-        raise Exception("Your input should be an integer greater than 100")
-    return balance    
+from validators import *
 
 
 class User():
@@ -259,7 +204,6 @@ class Trip():
           return "sorry,you dont have any card"
       elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
           loggedin_as.card.balance = loggedin_as.card.balance - trip.price
-          save_users()
           if loggedin_as.card.type == "onetime":
               loggedin_as.card = None
           return "success"   
