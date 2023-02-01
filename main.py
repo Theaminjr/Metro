@@ -34,9 +34,9 @@ from debug import debug_mode
 
 
 
-debug_mode(True)
+debug_mode(True) # set it as True so you can see all pickle files
 
-menu1 = {"1" : (" Login" , login) , "2" : (" Register t0 metro",register) ,  "3":(" Bank login" , banklogin)  ,"4":(" Bank Register" , bankregister), "5":(" Adminastrator",adminastration) }
+menu1 = {"1" : (" Login" , login) , "2" : (" Register to metro",register) ,  "3":(" Bank login" , banklogin)  ,"4":(" Bank Register" , bankregister), "5":(" Adminastrator",adminastration) }
 menu2 = { "1" : (" Get ticket" , buyticket) , "2" :(" Buy trip",buytrip) , "3": (" Exit",exit) }
 menu3 = {"1" : (" New trip",newtrip) , "2" : (" Edit trip" , edittrip) , "3" : (" Exit",exit)}
 menu4 = {"1" : (" Withdrawl",withdrawl), "2":(" Deposit",deposit) , "3" : (" Transaction",transaction) ,"4": (" exit",exit)}
@@ -58,11 +58,6 @@ while True:
       loggedin_as = menu_handler(menu4, loggedin_as)
    
 
-with open("first.pickle",'rb') as f:
-   print(pickle.load(f))
-   print(pickle.load(f))
-   print(pickle.load(f))
-   print(pickle.load(f))
 
 
 

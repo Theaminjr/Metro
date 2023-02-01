@@ -2,14 +2,19 @@ from logic import *
 from admin import *
 import os
 import datetime
-import time
+
 
 
 
 def login(loggedin_as): 
   nationalid = input("enter your nationalid  ")
   password = input("enter your password  ")
-  loggedin_as = User.authenticate(nationalid, password)
+  status = User.authenticate(nationalid, password)
+  if status == None:
+    print("National id or the password is incorrect")
+    input(" HIT ENTER TO CONTINUE ")
+  else:
+    loggedin_as = status
   return loggedin_as
   
 
@@ -17,15 +22,21 @@ def register(loggedin_as):
     fullname = input("FullName ==> ")
     password = input("password ==> ")
     nationalid = input("nationalid ==> ")
-    if User.createuser(fullname,password,nationalid) :
-         loggedin_as = User.authenticate(nationalid, password)
-         save_users()
-         return loggedin_as
+    status = User.createuser(fullname,password,nationalid)  
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
+    save_users()
+    return loggedin_as
 
 def adminastration(loggedin_as):
   nationalid = input("enter your nationalid  ")
   password = input("enter your password  ")
-  loggedin_as = User.admin_auth(nationalid,password)
+  status = User.admin_auth(nationalid,password)
+  if status == None:
+    print("National id or the password is incorrect")
+    input(" HIT ENTER TO CONTINUE ")
+  else:
+    loggedin_as = status
   return loggedin_as
 
 def exit(loggedin_as):
@@ -36,7 +47,10 @@ def banklogin(loggedin_as):
   print("please enter your bank account credentials")
   nationalid = input("enter your nationalid  ")
   password = input("enter your bank account password  ")
-  loggedin_as = BankAccount.bank_auth(nationalid, password)
+  status  = BankAccount.bank_auth(nationalid, password)
+  if status == None:
+    print("could not loggin")
+    input(" HIT ENTER TO CONTINUE ")
   return loggedin_as
 
 def buyticket(loggedin_as):
@@ -91,7 +105,7 @@ def buytrip(loggedin_as):
     trip = choosetrip(loggedin_as)
     if loggedin_as.card == None :
         print("sorry,you dont have any card")
-        time.sleep(5)
+        input(" HIT ENTER TO CONTINUE ")
     elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
         loggedin_as.card.balance = loggedin_as.card.balance - trip.price
         save_users()
@@ -99,7 +113,7 @@ def buytrip(loggedin_as):
             loggedin_as.card = None
     else:
         print("sorry,you dont have enough balance or your card has expired")
-        time.sleep(5)
+        input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
 
 
@@ -119,31 +133,39 @@ def edittrip(loggedin_as):
 def withdrawl(loggedin_as):
     amount = int(input("How much you want to withdraw ==> "))
     loggedin_as.withdraw(amount)
+    print(status)
     save_bank()
+    input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
     
 
 def deposit(loggedin_as):
     amount = int(input("How much you want to deposit ==> "))
-    loggedin_as.deposit(amount)
+    status = loggedin_as.deposit(amount)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     save_bank()
     return loggedin_as
 
 def transaction(loggedin_as):
     amount = int(input("How much you want to send ==> "))
     reciever = input("Please enter national id of the reciever ==> ")
-    reciever = BankAccount.bankaccounts[reciever]
-    loggedin_as.transaction(reciever,amount)
+    status = loggedin_as.transaction(reciever,amount)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     save_bank()
     return loggedin_as
 
 def bankregister(loggedin_as):
     name = input("please input your name ==> ")
-    balance = int(input("please input you balance ==> "))
+    balance = input("please input you balance ==> ")
     nationalid = input("please input your natioanl id ==> ")
     password = input("please input your password ==> ")
+    status = BankAccount.createaccount(name, balance, nationalid, password)
+    print(status)
+    input(" HIT ENTER TO CONTINUE ")
     save_bank()
-    return BankAccount.createaccount(name, balance, nationalid, password)
+    return loggedin_as
 
 def menu_handler(menu,loggedin_as):
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -153,7 +175,6 @@ def menu_handler(menu,loggedin_as):
     choice = input("what you want to do  ")
     if  choice in menu.keys():
        loggedin_as = menu[choice][1](loggedin_as)
-       save_bank()
        return loggedin_as
 
 

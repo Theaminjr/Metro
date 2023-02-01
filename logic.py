@@ -1,6 +1,7 @@
 import uuid
 import datetime
 import pickle
+import re
 
 def save_cards():
     with open("cards.pickle","wb") as file:
@@ -31,6 +32,29 @@ def load_all():
     with open("trip.pickle","rb") as file:
        Trip.trips = pickle.load(file)
 
+def password_validator(password):
+    pattern = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$"
+    return True if re.match(pattern, password) else False
+
+def nationalid_validator(nationalid):
+    pattern = "^[0-9]{6,12}$"
+    return True if re.match(pattern, nationalid) else False
+
+def fullname_validator(fullname):
+    pattern = "^[a-zA-Z]{3,24}$"
+    return True if re.match(pattern, fullname) else False
+
+def balance_validator(balance):
+    try :
+        balance = int(balance)
+    except ValueError:
+        return False
+    if balance < 100:
+        return False
+    return True
+        
+
+
 class User():
     users = {}
     def __init__(self,fullname,password,nationalid):
@@ -47,22 +71,31 @@ class User():
 
 
     def createuser(fullname,password,nationalid):
-        User.users[nationalid] = User(fullname,password,nationalid)
-        return True
+        if fullname_validator(fullname) != True:
+            return "name should be between 3-24 characters"
+        if password_validator(password) == True and nationalid_validator(nationalid) == True:
+           User.users[nationalid] = User(fullname,password,nationalid)
+           return "success"
+        elif password_validator(password) == False:
+            return "Your password should be at least 8 character long and include upper and lower case letters + numbers"
+        else:
+            return "your national id should be 8-12 characters long"
     
 
     def authenticate(nationalid,password):
         if nationalid in User.users.keys():
-            if password == User.users[nationalid].password:
+             if password == User.users[nationalid].password:
                 return User.users[nationalid]
+        return None
 
     
     def admin_auth(nationalid,password):
           if nationalid in User.users.keys():
               if password == User.users[nationalid].password:
                    if User.users[nationalid].superuser == True:
-                        print(User.users[nationalid].id)
                         return User.users[nationalid]
+          return None
+          
     
     def __repr__(self):
         return f"Welcome {self.fullname}, your unique id is {self.id} \nyour card status <<{self.card}>>"
@@ -81,24 +114,44 @@ class BankAccount():
    
     @classmethod
     def createaccount(self,name, balance, nationalid, password):
-         BankAccount.bankaccounts[nationalid] = BankAccount(name, balance, nationalid, password)
-         return BankAccount.bankaccounts[nationalid]
+        if fullname_validator(name) != True:
+            return "name should be between 3-24 characters"
+        if balance_validator(balance) == False:
+            return "your balance should be an integer greater than 100"
+        if password_validator(password) == True and nationalid_validator(nationalid) == True:
+            BankAccount.bankaccounts[nationalid] = BankAccount(name, balance, nationalid, password)
+            return "success"
+        elif password_validator(password) == False :
+            return "Your password should be at least 8 character long and include upper and lower case letters + numbers"
+        else :
+            return "your national id should be 8-12 characters long"
 
     def check_balance(self):
         return f"<{self.__balance}>"
 
 
     def deposit(self,other):
+        if balance_validator(balance) == False:
+            return "your balance should be an integer greater than 100"
         self.__balance += other
         return(f"<{self.name.title()}: {self.__balance}>")
 
 
     def withdrawl(self,other):
+        if balance_validator(balance) == False:
+            return "your balance should be an integer greater than 100"
+        self.__balance += other
         self.__balance -= other
         return(f"<{self.name.title()}: {self.__balance}>")
 
 
     def transaction(sender , reciever , amount):
+        if balance_validator(amount) == False:
+            return "your amount should be an integer greater than 100"
+        try:
+            reciever = BankAccount.bankaccounts[reciever]
+        except KeyError:
+            return "reciever does not exist"
         if sender.__balance >= amount :
             sender.__balance -= amount
             reciever.__balance += amount
@@ -110,6 +163,9 @@ class BankAccount():
           if nationalid in BankAccount.bankaccounts.keys():
                 if password == BankAccount.bankaccounts[nationalid].password:
                     return BankAccount.bankaccounts[nationalid]
+          else:
+            return None
+
     
     def __repr__(self):
         return f"Welcome {self.name} your bank balance is {self.check_balance()}"
