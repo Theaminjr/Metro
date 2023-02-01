@@ -14,7 +14,7 @@ menu:
 
 # CARDS ARE REPLACED EVERY TIME <Done>
 # Validation + setter getter
-# STYLING TERMINAL
+# STYLING TERMINAL <DONE>
 # CLEANING UP THE CODE
 # WRITTING TESTS
 
@@ -25,6 +25,7 @@ from menu import *
 from admin import *
 import pickle
 from debug import debug_mode
+
 
 
 
