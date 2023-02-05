@@ -118,26 +118,42 @@ def newtrip(loggedin_as):
     status = Trip.createtrip(departure, arrival, origin, destination, price , createdby)
     if status != "success": 
         print_FAIL(status)
-    print_OKGREEN(status)
+    else:
+        print_OKGREEN(status)
     input(" HIT ENTER TO CONTINUE ")
     save_trips()
     return loggedin_as
 
-def choosetrip(loggedin_as):
+def choosetrip(loggedin_as,now):
     i = 0
     for trip in Trip.trips:
         i += 1
-        print_OPTIONS(trip)
+        print(i,end=" ")
+        if trip.departure< now:
+           print(trip,end=" ")
+           print_WARNING("Not available")
+        else:
+           print(trip,end=" ")
+           print_OKGREEN("Available")
     choice = int(input("Choose your trip by entering the number ==> "))
-    if choice <= len(Trip.trips) + 1:
+    try :
         return Trip.trips[choice - 1]
+    except Exception:
+        return None
+
 
 def buytrip(loggedin_as):
-    trip = choosetrip(loggedin_as)
-    status = Trip.buytrip(trip,loggedin_as)
+    time = datetime.datetime.now().hour
+    print_header(f"it is {time} Oclock now")
+    trip = choosetrip(loggedin_as,time)
+    if trip == None:
+        print_FAIL("Trip does not exist")
+        return loggedin_as
+    status = Trip.buytrip(trip,loggedin_as,time)
     if status != "success": 
         print_FAIL(status)
-    print_OKGREEN(status)
+    else:
+        print_OKGREEN(status)
     save_users()
     input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
@@ -145,7 +161,12 @@ def buytrip(loggedin_as):
 
 
 def edittrip(loggedin_as):
-    trip = choosetrip(loggedin_as)
+    time = datetime.datetime.now().hour
+    trip = choosetrip(loggedin_as,time)
+    if trip == None:
+        print_FAIL("Trip does not exist")
+        input(" HIT ENTER TO CONTINUE ")
+        return loggedin_as
     departure = input("departure : ")
     arrival = input("arrival : ")
     origin = input("origin : ")
@@ -155,10 +176,25 @@ def edittrip(loggedin_as):
     status = Trip.edittrip(trip, departure, arrival, origin, destination, price , createdby)
     if status != "success": 
         print_FAIL(status)
+        input(" HIT ENTER TO CONTINUE ")
     print_OKGREEN(status)
     input(" HIT ENTER TO CONTINUE ")
     save_trips()
     return loggedin_as
+
+def deletetrip(loggedin_as):
+    time = datetime.datetime.now().hour
+    trip = choosetrip(loggedin_as,time)
+    if trip == None:
+        print_FAIL("Trip does not exist")
+        input(" HIT ENTER TO CONTINUE ")
+        return loggedin_as
+    status = trip.deletetrip(trip)
+    print_OKGREEN(status)
+    save_trips()
+    input(" HIT ENTER TO CONTINUE ")
+    return loggedin_as
+
 
 def withdrawl(loggedin_as):
     amount = int(input("How much you want to withdraw ==> "))

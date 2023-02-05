@@ -1,23 +1,7 @@
 '''
-menu:
-- login
-   - access your bank account 
-   - buy ticket 
-   - exit
-- register
-    - register and get your unique id
-- adminastration
-   - newtrip
-   - edit trip
-   - exit
-
-
-# CARDS ARE REPLACED EVERY TIME <Done>
 # Validation + setter getter + data hiding
-# STYLING TERMINAL <DONE>
 # CLEANING UP THE CODE
 # WRITTING TESTS
-
 
 '''
 from logic import * 
@@ -32,9 +16,9 @@ from debug import debug_mode
 
 debug_mode(True) # set it as True so you can see all pickle files
 
-menu1 = {"1" : (" Login" , login) , "2" : (" Register to metro",register) ,  "3":(" Bank login" , banklogin)  ,"4":(" Bank Register" , bankregister), "5":(" Adminastrator",adminastration) }
+menu1 = {"1" : (" Login to Metro" , login) , "2" : (" Register to Metro",register) ,  "3":(" login to Bank  " , banklogin)  ,"4":(" Register to Bank " , bankregister), "5":(" Adminastrator",adminastration) }
 menu2 = { "1" : (" Get ticket" , buyticket) , "2" :(" Buy trip",buytrip) , "3": (" Exit",exit) }
-menu3 = {"1" : (" New trip",newtrip) , "2" : (" Edit trip" , edittrip) , "3" : (" Exit",exit)}
+menu3 = {"1" : (" New trip",newtrip) , "2" : (" Edit trip" , edittrip) ,"3":(" Delete trip",deletetrip), "4" : (" Exit",exit)}
 menu4 = {"1" : (" Withdrawl",withdrawl), "2":(" Deposit",deposit) , "3" : (" Transaction",transaction) ,"4": (" exit",exit)}
 
 

@@ -53,7 +53,7 @@ class BankAccount():
     bankaccounts = {}
 
     def __init__(self,name,balance,nationalid,password):
-        self.__balance = balance  #data hiding
+        self.__balance = balance  
         self.name =name
         self.nationalid = nationalid
         self.password = password
@@ -171,7 +171,7 @@ class Trip():
     trips = []
 
     def __init__(self,departure,arrival,origin,destination,price,createdby):
-        self.departure = departure
+        self.departure = int(departure)
         self.arrival = arrival
         self.origin =origin
         self.destination= destination
@@ -184,7 +184,7 @@ class Trip():
         except Exception as e:
             return e
         Trip.trips.append(Trip(departure , arrival, origin, destination, price ,createdby)) 
-        return "seccess"
+        return "success"
 
     def edittrip(trip,departure,arrival,origin,destination,price,createdby):
         try:
@@ -199,7 +199,9 @@ class Trip():
         trip.createdby = createdby
         return "success"
     @classmethod
-    def buytrip(self,trip,loggedin_as):
+    def buytrip(self,trip,loggedin_as,now):
+      if trip.departure< now:
+        return f"The metro is not available at this time, its departure was at {trip.departure}"
       if loggedin_as.card == None :
           return "sorry,you dont have any card"
       elif loggedin_as.card.balance >= trip.price  and loggedin_as.card.expiration > datetime.datetime.now():
@@ -209,9 +211,17 @@ class Trip():
           return "success"   
       else:
           return "sorry,you dont have enough balance or your card has expired"
+    
+    @classmethod
+    def deletetrip(cls,trip):
+        cls.trips.remove(trip)
+        return "success"
+
 
     def __repr__(self):
         return f"from {self.origin} to {self.destination} departure at {self.departure} <price:{3000}> "
+    
+
     
 
     
