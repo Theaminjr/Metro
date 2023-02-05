@@ -1,5 +1,4 @@
 '''
-# Validation + setter getter + data hiding
 # CLEANING UP THE CODE
 # WRITTING TESTS
 
