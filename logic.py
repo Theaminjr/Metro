@@ -74,6 +74,7 @@ class BankAccount():
             password_validator(password)
             balance = balance_validator(balance)
             BankAccount.bankaccounts[nationalid] = BankAccount(name,balance,nationalid,password)
+            print(BankAccount.bankaccounts)
             logging.info(f"a new bank account was created")
             return "success"
         except Exception as e:
@@ -81,12 +82,12 @@ class BankAccount():
             return e
 
     def check_balance(self):
-        return f"<{self.__balance}>"
+        return f"{self.__balance}"
 
 
     def deposit(self,other):
         try:
-           other = balance_validator(balance)
+           other = balance_validator(other)
         except Exception as e:
             logging.error("could not deposit")
             return e
@@ -109,9 +110,9 @@ class BankAccount():
 
     def transaction(sender , reciever , amount):
         try:
-           amount = balance_validator(other)
+           amount = balance_validator(amount)
         except Exception as e:
-            logging.error("invalid amoun for transaction")
+            logging.error("invalid amount for transaction")
             return e
         try:
             reciever = BankAccount.bankaccounts[reciever]

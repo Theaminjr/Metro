@@ -3,7 +3,7 @@ import re
 def password_validator(password):
     pattern = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9]).{8,}$"
     if  re.match(pattern, password) == None:
-        raise Exception("Your password should be at least 8 character long and include upper and lower case letters + numbers") 
+        raise Exception("Your password should be at least 8 characters long and include upper and lower case letters + numbers") 
         
 
 def nationalid_validator(nationalid):

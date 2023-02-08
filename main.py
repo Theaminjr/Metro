@@ -1,8 +1,7 @@
-'''
-# CLEANING UP THE CODE
-# WRITTING TESTS
+# Metro User : 0311987540  Pass:Amin1378
+# Bank User :  0311987540  Pass:Amin1378
+# Admin user : 1  Pass:admin
 
-'''
 from logic import * 
 from menu import *
 from admin import *
@@ -13,7 +12,7 @@ from debug import debug_mode
 
 
 
-debug_mode(True) # set it as True so you can see all pickle files
+debug_mode(False) # set it as True so you can see all pickle files
 
 menu1 = {"1" : (" Login to Metro" , login) , "2" : (" Register to Metro",register) ,  "3":(" login to Bank  " , banklogin)  ,"4":(" Register to Bank " , bankregister), "5":(" Adminastrator",adminastration) }
 menu2 = { "1" : (" Get ticket" , buyticket) , "2" :(" Buy trip",buytrip) , "3": (" Exit",exit) }

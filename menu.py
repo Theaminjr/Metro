@@ -201,7 +201,8 @@ def withdrawl(loggedin_as):
     loggedin_as.withdraw(amount)
     if status != "success": 
         print_FAIL(status)
-    print_OKGREEN(status)
+    else:
+        print_OKGREEN(status)
     save_bank()
     input(" HIT ENTER TO CONTINUE ")
     return loggedin_as
@@ -212,7 +213,8 @@ def deposit(loggedin_as):
     status = loggedin_as.deposit(amount)
     if status != "success": 
         print_FAIL(status)
-    print_OKGREEN(status)
+    else:
+        print_OKGREEN(status)
     input(" HIT ENTER TO CONTINUE ")
     save_bank()
     return loggedin_as
@@ -223,7 +225,8 @@ def transaction(loggedin_as):
     status = loggedin_as.transaction(reciever,amount)
     if status != "success": 
         print_FAIL(status)
-    print_OKGREEN(status)
+    else:
+       print_OKGREEN(status)
     input(" HIT ENTER TO CONTINUE ")
     save_bank()
     return loggedin_as

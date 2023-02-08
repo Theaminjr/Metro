@@ -1,1 +1,981 @@
 [2023-02-05 12:31:51,411] {/home/amin/Desktop/HW12/logic.py:40} 24837-ERROR-could not authenticate
+[2023-02-05 19:06:17,672] {/home/amin/Desktop/HW12/logic.py:29} 5405-INFO-user was created
+[2023-02-05 19:10:47,630] {/home/amin/Desktop/HW12/logic.py:29} 5611-INFO-user was created
+[2023-02-05 19:10:47,630] {/home/amin/Desktop/HW12/logic.py:32} 5611-ERROR-could not create user
+[2023-02-05 19:12:30,908] {/home/amin/Desktop/HW12/logic.py:29} 5769-INFO-user was created
+[2023-02-05 19:12:30,908] {/home/amin/Desktop/HW12/logic.py:32} 5769-ERROR-could not create user
+[2023-02-05 19:13:31,472] {/home/amin/Desktop/HW12/logic.py:32} 5832-ERROR-could not create user
+[2023-02-05 19:13:31,472] {/home/amin/Desktop/HW12/logic.py:29} 5832-INFO-user was created
+[2023-02-05 19:13:31,473] {/home/amin/Desktop/HW12/logic.py:32} 5832-ERROR-could not create user
+[2023-02-05 19:14:32,431] {/home/amin/Desktop/HW12/logic.py:29} 5904-INFO-user was created
+[2023-02-05 19:14:32,431] {/home/amin/Desktop/HW12/logic.py:32} 5904-ERROR-could not create user
+[2023-02-05 19:17:47,486] {/home/amin/Desktop/HW12/logic.py:29} 6180-INFO-user was created
+[2023-02-05 19:17:47,486] {/home/amin/Desktop/HW12/logic.py:32} 6180-ERROR-could not create user
+[2023-02-05 19:18:09,878] {/home/amin/Desktop/HW12/logic.py:29} 6228-INFO-user was created
+[2023-02-05 19:18:09,879] {/home/amin/Desktop/HW12/logic.py:32} 6228-ERROR-could not create user
+[2023-02-05 19:18:09,879] {/home/amin/Desktop/HW12/logic.py:32} 6228-ERROR-could not create user
+[2023-02-05 19:19:01,820] {/home/amin/Desktop/HW12/logic.py:29} 6306-INFO-user was created
+[2023-02-05 19:19:01,821] {/home/amin/Desktop/HW12/logic.py:32} 6306-ERROR-could not create user
+[2023-02-05 19:19:01,821] {/home/amin/Desktop/HW12/logic.py:32} 6306-ERROR-could not create user
+[2023-02-05 19:19:01,821] {/home/amin/Desktop/HW12/logic.py:32} 6306-ERROR-could not create user
+[2023-02-05 19:22:51,737] {/home/amin/Desktop/HW12/logic.py:40} 6456-ERROR-could not authenticate
+[2023-02-05 19:22:51,739] {/home/amin/Desktop/HW12/logic.py:29} 6456-INFO-user was created
+[2023-02-05 19:22:51,739] {/home/amin/Desktop/HW12/logic.py:32} 6456-ERROR-could not create user
+[2023-02-05 19:22:51,739] {/home/amin/Desktop/HW12/logic.py:32} 6456-ERROR-could not create user
+[2023-02-05 19:22:51,739] {/home/amin/Desktop/HW12/logic.py:32} 6456-ERROR-could not create user
+[2023-02-05 19:25:03,983] {/home/amin/Desktop/HW12/logic.py:50} 6544-ERROR-could not authenticate
+[2023-02-05 19:25:03,983] {/home/amin/Desktop/HW12/logic.py:40} 6544-ERROR-could not authenticate
+[2023-02-05 19:25:03,984] {/home/amin/Desktop/HW12/logic.py:29} 6544-INFO-user was created
+[2023-02-05 19:25:03,984] {/home/amin/Desktop/HW12/logic.py:32} 6544-ERROR-could not create user
+[2023-02-05 19:25:03,984] {/home/amin/Desktop/HW12/logic.py:32} 6544-ERROR-could not create user
+[2023-02-05 19:25:03,984] {/home/amin/Desktop/HW12/logic.py:32} 6544-ERROR-could not create user
+[2023-02-05 19:25:37,844] {/home/amin/Desktop/HW12/logic.py:50} 6608-ERROR-could not authenticate
+[2023-02-05 19:25:37,845] {/home/amin/Desktop/HW12/logic.py:40} 6608-ERROR-could not authenticate
+[2023-02-05 19:25:37,845] {/home/amin/Desktop/HW12/logic.py:29} 6608-INFO-user was created
+[2023-02-05 19:25:37,845] {/home/amin/Desktop/HW12/logic.py:32} 6608-ERROR-could not create user
+[2023-02-05 19:25:37,845] {/home/amin/Desktop/HW12/logic.py:32} 6608-ERROR-could not create user
+[2023-02-05 19:25:37,845] {/home/amin/Desktop/HW12/logic.py:32} 6608-ERROR-could not create user
+[2023-02-05 19:29:34,468] {/home/amin/Desktop/HW12/logic.py:50} 6946-ERROR-could not authenticate
+[2023-02-05 19:29:34,468] {/home/amin/Desktop/HW12/logic.py:40} 6946-ERROR-could not authenticate
+[2023-02-05 19:29:34,469] {/home/amin/Desktop/HW12/logic.py:29} 6946-INFO-user was created
+[2023-02-05 19:29:34,469] {/home/amin/Desktop/HW12/logic.py:32} 6946-ERROR-could not create user
+[2023-02-05 19:29:34,469] {/home/amin/Desktop/HW12/logic.py:32} 6946-ERROR-could not create user
+[2023-02-05 19:29:34,470] {/home/amin/Desktop/HW12/logic.py:32} 6946-ERROR-could not create user
+[2023-02-05 19:37:41,568] {/home/amin/Desktop/HW12/logic.py:40} 7238-ERROR-could not authenticate
+[2023-02-05 19:37:41,569] {/home/amin/Desktop/HW12/logic.py:29} 7238-INFO-user was created
+[2023-02-05 19:37:41,569] {/home/amin/Desktop/HW12/logic.py:32} 7238-ERROR-could not create user
+[2023-02-05 19:37:41,569] {/home/amin/Desktop/HW12/logic.py:32} 7238-ERROR-could not create user
+[2023-02-05 19:37:41,569] {/home/amin/Desktop/HW12/logic.py:32} 7238-ERROR-could not create user
+[2023-02-05 19:38:47,284] {/home/amin/Desktop/HW12/logic.py:40} 7308-ERROR-could not authenticate
+[2023-02-05 19:38:47,285] {/home/amin/Desktop/HW12/logic.py:29} 7308-INFO-user was created
+[2023-02-05 19:38:47,285] {/home/amin/Desktop/HW12/logic.py:32} 7308-ERROR-could not create user
+[2023-02-05 19:38:47,285] {/home/amin/Desktop/HW12/logic.py:32} 7308-ERROR-could not create user
+[2023-02-05 19:38:47,286] {/home/amin/Desktop/HW12/logic.py:32} 7308-ERROR-could not create user
+[2023-02-05 19:40:54,393] {/home/amin/Desktop/HW12/logic.py:40} 7416-ERROR-could not authenticate
+[2023-02-05 19:40:54,394] {/home/amin/Desktop/HW12/logic.py:29} 7416-INFO-user was created
+[2023-02-05 19:40:54,395] {/home/amin/Desktop/HW12/logic.py:32} 7416-ERROR-could not create user
+[2023-02-05 19:40:54,395] {/home/amin/Desktop/HW12/logic.py:32} 7416-ERROR-could not create user
+[2023-02-05 19:40:54,395] {/home/amin/Desktop/HW12/logic.py:32} 7416-ERROR-could not create user
+[2023-02-05 19:44:48,041] {/home/amin/Desktop/HW12/logic.py:40} 7566-ERROR-could not authenticate
+[2023-02-05 19:44:48,044] {/home/amin/Desktop/HW12/logic.py:29} 7566-INFO-user was created
+[2023-02-05 19:44:48,044] {/home/amin/Desktop/HW12/logic.py:32} 7566-ERROR-could not create user
+[2023-02-05 19:44:48,045] {/home/amin/Desktop/HW12/logic.py:32} 7566-ERROR-could not create user
+[2023-02-05 19:44:48,045] {/home/amin/Desktop/HW12/logic.py:32} 7566-ERROR-could not create user
+[2023-02-05 19:46:20,968] {/home/amin/Desktop/HW12/logic.py:40} 7676-ERROR-could not authenticate
+[2023-02-05 19:46:20,969] {/home/amin/Desktop/HW12/logic.py:29} 7676-INFO-user was created
+[2023-02-05 19:46:20,969] {/home/amin/Desktop/HW12/logic.py:32} 7676-ERROR-could not create user
+[2023-02-05 19:46:20,970] {/home/amin/Desktop/HW12/logic.py:32} 7676-ERROR-could not create user
+[2023-02-05 19:46:20,970] {/home/amin/Desktop/HW12/logic.py:32} 7676-ERROR-could not create user
+[2023-02-05 19:48:55,799] {/home/amin/Desktop/HW12/logic.py:40} 7772-ERROR-could not authenticate
+[2023-02-05 19:48:55,800] {/home/amin/Desktop/HW12/logic.py:29} 7772-INFO-user was created
+[2023-02-05 19:48:55,801] {/home/amin/Desktop/HW12/logic.py:32} 7772-ERROR-could not create user
+[2023-02-05 19:48:55,801] {/home/amin/Desktop/HW12/logic.py:32} 7772-ERROR-could not create user
+[2023-02-05 19:48:55,801] {/home/amin/Desktop/HW12/logic.py:32} 7772-ERROR-could not create user
+[2023-02-05 19:53:30,181] {/home/amin/Desktop/HW12/logic.py:40} 7930-ERROR-could not authenticate
+[2023-02-05 19:53:30,182] {/home/amin/Desktop/HW12/logic.py:29} 7930-INFO-user was created
+[2023-02-05 19:53:30,182] {/home/amin/Desktop/HW12/logic.py:32} 7930-ERROR-could not create user
+[2023-02-05 19:53:30,182] {/home/amin/Desktop/HW12/logic.py:32} 7930-ERROR-could not create user
+[2023-02-05 19:53:30,182] {/home/amin/Desktop/HW12/logic.py:32} 7930-ERROR-could not create user
+[2023-02-05 19:53:36,602] {/home/amin/Desktop/HW12/logic.py:40} 7969-ERROR-could not authenticate
+[2023-02-05 19:53:36,604] {/home/amin/Desktop/HW12/logic.py:29} 7969-INFO-user was created
+[2023-02-05 19:53:36,604] {/home/amin/Desktop/HW12/logic.py:32} 7969-ERROR-could not create user
+[2023-02-05 19:53:36,605] {/home/amin/Desktop/HW12/logic.py:32} 7969-ERROR-could not create user
+[2023-02-05 19:53:36,605] {/home/amin/Desktop/HW12/logic.py:32} 7969-ERROR-could not create user
+[2023-02-05 19:54:12,224] {/home/amin/Desktop/HW12/logic.py:40} 8036-ERROR-could not authenticate
+[2023-02-05 19:54:12,225] {/home/amin/Desktop/HW12/logic.py:29} 8036-INFO-user was created
+[2023-02-05 19:54:12,225] {/home/amin/Desktop/HW12/logic.py:32} 8036-ERROR-could not create user
+[2023-02-05 19:54:12,225] {/home/amin/Desktop/HW12/logic.py:32} 8036-ERROR-could not create user
+[2023-02-05 19:54:12,225] {/home/amin/Desktop/HW12/logic.py:32} 8036-ERROR-could not create user
+[2023-02-05 19:56:02,389] {/home/amin/Desktop/HW12/logic.py:136} 8325-ERROR-could not authenticate
+[2023-02-05 19:56:02,390] {/home/amin/Desktop/HW12/logic.py:91} 8325-ERROR-could not deposit
+[2023-02-05 19:56:02,390] {/home/amin/Desktop/HW12/logic.py:114} 8325-ERROR-invalid amount for transaction
+[2023-02-05 19:56:02,390] {/home/amin/Desktop/HW12/logic.py:106} 8325-INFO-withdrawl was successful
+[2023-02-05 19:56:02,391] {/home/amin/Desktop/HW12/logic.py:40} 8325-ERROR-could not authenticate
+[2023-02-05 19:56:02,391] {/home/amin/Desktop/HW12/logic.py:29} 8325-INFO-user was created
+[2023-02-05 19:56:02,391] {/home/amin/Desktop/HW12/logic.py:32} 8325-ERROR-could not create user
+[2023-02-05 19:56:02,391] {/home/amin/Desktop/HW12/logic.py:32} 8325-ERROR-could not create user
+[2023-02-05 19:56:02,392] {/home/amin/Desktop/HW12/logic.py:32} 8325-ERROR-could not create user
+[2023-02-05 19:56:45,066] {/home/amin/Desktop/HW12/logic.py:136} 8433-ERROR-could not authenticate
+[2023-02-05 19:56:45,066] {/home/amin/Desktop/HW12/logic.py:91} 8433-ERROR-could not deposit
+[2023-02-05 19:56:45,066] {/home/amin/Desktop/HW12/logic.py:114} 8433-ERROR-invalid amount for transaction
+[2023-02-05 19:56:45,067] {/home/amin/Desktop/HW12/logic.py:106} 8433-INFO-withdrawl was successful
+[2023-02-05 19:56:45,067] {/home/amin/Desktop/HW12/logic.py:40} 8433-ERROR-could not authenticate
+[2023-02-05 19:56:45,067] {/home/amin/Desktop/HW12/logic.py:29} 8433-INFO-user was created
+[2023-02-05 19:56:45,068] {/home/amin/Desktop/HW12/logic.py:32} 8433-ERROR-could not create user
+[2023-02-05 19:56:45,068] {/home/amin/Desktop/HW12/logic.py:32} 8433-ERROR-could not create user
+[2023-02-05 19:56:45,068] {/home/amin/Desktop/HW12/logic.py:32} 8433-ERROR-could not create user
+[2023-02-05 19:57:52,144] {/home/amin/Desktop/HW12/logic.py:136} 8500-ERROR-could not authenticate
+[2023-02-05 19:57:52,145] {/home/amin/Desktop/HW12/logic.py:91} 8500-ERROR-could not deposit
+[2023-02-05 19:57:52,145] {/home/amin/Desktop/HW12/logic.py:114} 8500-ERROR-invalid amount for transaction
+[2023-02-05 19:57:52,145] {/home/amin/Desktop/HW12/logic.py:106} 8500-INFO-withdrawl was successful
+[2023-02-05 19:57:52,146] {/home/amin/Desktop/HW12/logic.py:40} 8500-ERROR-could not authenticate
+[2023-02-05 19:57:52,147] {/home/amin/Desktop/HW12/logic.py:29} 8500-INFO-user was created
+[2023-02-05 19:57:52,147] {/home/amin/Desktop/HW12/logic.py:32} 8500-ERROR-could not create user
+[2023-02-05 19:57:52,147] {/home/amin/Desktop/HW12/logic.py:32} 8500-ERROR-could not create user
+[2023-02-05 19:57:52,147] {/home/amin/Desktop/HW12/logic.py:32} 8500-ERROR-could not create user
+[2023-02-05 19:58:15,059] {/home/amin/Desktop/HW12/logic.py:136} 8564-ERROR-could not authenticate
+[2023-02-05 19:58:15,059] {/home/amin/Desktop/HW12/logic.py:91} 8564-ERROR-could not deposit
+[2023-02-05 19:58:15,059] {/home/amin/Desktop/HW12/logic.py:114} 8564-ERROR-invalid amount for transaction
+[2023-02-05 19:58:15,059] {/home/amin/Desktop/HW12/logic.py:106} 8564-INFO-withdrawl was successful
+[2023-02-05 19:58:15,060] {/home/amin/Desktop/HW12/logic.py:40} 8564-ERROR-could not authenticate
+[2023-02-05 19:58:15,060] {/home/amin/Desktop/HW12/logic.py:29} 8564-INFO-user was created
+[2023-02-05 19:58:15,060] {/home/amin/Desktop/HW12/logic.py:32} 8564-ERROR-could not create user
+[2023-02-05 19:58:15,060] {/home/amin/Desktop/HW12/logic.py:32} 8564-ERROR-could not create user
+[2023-02-05 19:58:15,060] {/home/amin/Desktop/HW12/logic.py:32} 8564-ERROR-could not create user
+[2023-02-05 19:59:32,975] {/home/amin/Desktop/HW12/logic.py:136} 8647-ERROR-could not authenticate
+[2023-02-05 19:59:32,975] {/home/amin/Desktop/HW12/logic.py:91} 8647-ERROR-could not deposit
+[2023-02-05 19:59:32,975] {/home/amin/Desktop/HW12/logic.py:114} 8647-ERROR-invalid amount for transaction
+[2023-02-05 19:59:32,975] {/home/amin/Desktop/HW12/logic.py:106} 8647-INFO-withdrawl was successful
+[2023-02-05 19:59:32,976] {/home/amin/Desktop/HW12/logic.py:40} 8647-ERROR-could not authenticate
+[2023-02-05 19:59:32,977] {/home/amin/Desktop/HW12/logic.py:29} 8647-INFO-user was created
+[2023-02-05 19:59:32,977] {/home/amin/Desktop/HW12/logic.py:32} 8647-ERROR-could not create user
+[2023-02-05 19:59:32,977] {/home/amin/Desktop/HW12/logic.py:32} 8647-ERROR-could not create user
+[2023-02-05 19:59:32,977] {/home/amin/Desktop/HW12/logic.py:32} 8647-ERROR-could not create user
+[2023-02-05 20:01:09,759] {/home/amin/Desktop/HW12/logic.py:136} 8795-ERROR-could not authenticate
+[2023-02-05 20:01:09,759] {/home/amin/Desktop/HW12/logic.py:91} 8795-ERROR-could not deposit
+[2023-02-05 20:01:09,760] {/home/amin/Desktop/HW12/logic.py:114} 8795-ERROR-invalid amount for transaction
+[2023-02-05 20:01:09,760] {/home/amin/Desktop/HW12/logic.py:106} 8795-INFO-withdrawl was successful
+[2023-02-05 20:01:09,760] {/home/amin/Desktop/HW12/logic.py:40} 8795-ERROR-could not authenticate
+[2023-02-05 20:01:09,760] {/home/amin/Desktop/HW12/logic.py:29} 8795-INFO-user was created
+[2023-02-05 20:01:09,761] {/home/amin/Desktop/HW12/logic.py:32} 8795-ERROR-could not create user
+[2023-02-05 20:01:09,761] {/home/amin/Desktop/HW12/logic.py:32} 8795-ERROR-could not create user
+[2023-02-05 20:01:09,761] {/home/amin/Desktop/HW12/logic.py:32} 8795-ERROR-could not create user
+[2023-02-05 20:01:51,163] {/home/amin/Desktop/HW12/logic.py:136} 8849-ERROR-could not authenticate
+[2023-02-05 20:01:51,163] {/home/amin/Desktop/HW12/logic.py:91} 8849-ERROR-could not deposit
+[2023-02-05 20:01:51,164] {/home/amin/Desktop/HW12/logic.py:114} 8849-ERROR-invalid amount for transaction
+[2023-02-05 20:01:51,164] {/home/amin/Desktop/HW12/logic.py:106} 8849-INFO-withdrawl was successful
+[2023-02-05 20:01:51,164] {/home/amin/Desktop/HW12/logic.py:40} 8849-ERROR-could not authenticate
+[2023-02-05 20:01:51,165] {/home/amin/Desktop/HW12/logic.py:29} 8849-INFO-user was created
+[2023-02-05 20:01:51,165] {/home/amin/Desktop/HW12/logic.py:32} 8849-ERROR-could not create user
+[2023-02-05 20:01:51,165] {/home/amin/Desktop/HW12/logic.py:32} 8849-ERROR-could not create user
+[2023-02-05 20:01:51,165] {/home/amin/Desktop/HW12/logic.py:32} 8849-ERROR-could not create user
+[2023-02-05 20:05:54,884] {/home/amin/Desktop/HW12/logic.py:40} 9032-ERROR-could not authenticate
+[2023-02-05 20:05:54,885] {/home/amin/Desktop/HW12/logic.py:29} 9032-INFO-user was created
+[2023-02-05 20:05:54,885] {/home/amin/Desktop/HW12/logic.py:32} 9032-ERROR-could not create user
+[2023-02-05 20:05:54,885] {/home/amin/Desktop/HW12/logic.py:32} 9032-ERROR-could not create user
+[2023-02-05 20:05:54,885] {/home/amin/Desktop/HW12/logic.py:32} 9032-ERROR-could not create user
+[2023-02-05 20:06:31,624] {/home/amin/Desktop/HW12/logic.py:40} 9122-ERROR-could not authenticate
+[2023-02-05 20:06:31,624] {/home/amin/Desktop/HW12/logic.py:29} 9122-INFO-user was created
+[2023-02-05 20:06:31,624] {/home/amin/Desktop/HW12/logic.py:32} 9122-ERROR-could not create user
+[2023-02-05 20:06:31,624] {/home/amin/Desktop/HW12/logic.py:32} 9122-ERROR-could not create user
+[2023-02-05 20:06:31,624] {/home/amin/Desktop/HW12/logic.py:32} 9122-ERROR-could not create user
+[2023-02-05 20:07:01,194] {/home/amin/Desktop/HW12/logic.py:40} 9186-ERROR-could not authenticate
+[2023-02-05 20:07:01,195] {/home/amin/Desktop/HW12/logic.py:29} 9186-INFO-user was created
+[2023-02-05 20:07:01,195] {/home/amin/Desktop/HW12/logic.py:32} 9186-ERROR-could not create user
+[2023-02-05 20:07:01,195] {/home/amin/Desktop/HW12/logic.py:32} 9186-ERROR-could not create user
+[2023-02-05 20:07:01,195] {/home/amin/Desktop/HW12/logic.py:32} 9186-ERROR-could not create user
+[2023-02-05 20:08:27,807] {/home/amin/Desktop/HW12/logic.py:40} 9263-ERROR-could not authenticate
+[2023-02-05 20:08:27,808] {/home/amin/Desktop/HW12/logic.py:29} 9263-INFO-user was created
+[2023-02-05 20:08:27,808] {/home/amin/Desktop/HW12/logic.py:32} 9263-ERROR-could not create user
+[2023-02-05 20:08:27,808] {/home/amin/Desktop/HW12/logic.py:32} 9263-ERROR-could not create user
+[2023-02-05 20:08:27,808] {/home/amin/Desktop/HW12/logic.py:32} 9263-ERROR-could not create user
+[2023-02-05 20:08:43,988] {/home/amin/Desktop/HW12/logic.py:40} 9318-ERROR-could not authenticate
+[2023-02-05 20:08:43,988] {/home/amin/Desktop/HW12/logic.py:29} 9318-INFO-user was created
+[2023-02-05 20:08:43,989] {/home/amin/Desktop/HW12/logic.py:32} 9318-ERROR-could not create user
+[2023-02-05 20:08:43,989] {/home/amin/Desktop/HW12/logic.py:32} 9318-ERROR-could not create user
+[2023-02-05 20:08:43,989] {/home/amin/Desktop/HW12/logic.py:32} 9318-ERROR-could not create user
+[2023-02-05 20:15:18,679] {/home/amin/Desktop/HW12/logic.py:40} 9608-ERROR-could not authenticate
+[2023-02-05 20:15:18,680] {/home/amin/Desktop/HW12/logic.py:29} 9608-INFO-user was created
+[2023-02-05 20:15:18,680] {/home/amin/Desktop/HW12/logic.py:32} 9608-ERROR-could not create user
+[2023-02-05 20:15:18,680] {/home/amin/Desktop/HW12/logic.py:32} 9608-ERROR-could not create user
+[2023-02-05 20:15:18,680] {/home/amin/Desktop/HW12/logic.py:32} 9608-ERROR-could not create user
+[2023-02-05 20:15:58,502] {/home/amin/Desktop/HW12/logic.py:136} 9661-ERROR-could not authenticate
+[2023-02-05 20:15:58,502] {/home/amin/Desktop/HW12/logic.py:91} 9661-ERROR-could not deposit
+[2023-02-05 20:15:58,503] {/home/amin/Desktop/HW12/logic.py:114} 9661-ERROR-invalid amount for transaction
+[2023-02-05 20:15:58,503] {/home/amin/Desktop/HW12/logic.py:106} 9661-INFO-withdrawl was successful
+[2023-02-05 20:15:58,503] {/home/amin/Desktop/HW12/logic.py:40} 9661-ERROR-could not authenticate
+[2023-02-05 20:15:58,503] {/home/amin/Desktop/HW12/logic.py:29} 9661-INFO-user was created
+[2023-02-05 20:15:58,504] {/home/amin/Desktop/HW12/logic.py:32} 9661-ERROR-could not create user
+[2023-02-05 20:15:58,504] {/home/amin/Desktop/HW12/logic.py:32} 9661-ERROR-could not create user
+[2023-02-05 20:15:58,504] {/home/amin/Desktop/HW12/logic.py:32} 9661-ERROR-could not create user
+[2023-02-05 20:24:32,549] {/home/amin/Desktop/HW12/logic.py:40} 10910-ERROR-could not authenticate
+[2023-02-05 20:24:32,550] {/home/amin/Desktop/HW12/logic.py:29} 10910-INFO-user was created
+[2023-02-05 20:24:32,550] {/home/amin/Desktop/HW12/logic.py:32} 10910-ERROR-could not create user
+[2023-02-05 20:24:32,550] {/home/amin/Desktop/HW12/logic.py:32} 10910-ERROR-could not create user
+[2023-02-05 20:24:32,550] {/home/amin/Desktop/HW12/logic.py:32} 10910-ERROR-could not create user
+[2023-02-05 20:25:42,028] {/home/amin/Desktop/HW12/logic.py:189} 11069-INFO-user Welcome test, your unique id is 1d72f391-a465-4e16-95eb-8bdb0a167576 
+your card status <<your balance is 30000 and will expire by 2023-03-07 20:25:42.028175>> bought your balance is 30000 and will expire by 2023-03-07 20:25:42.028175
+[2023-02-05 20:25:42,028] {/home/amin/Desktop/HW12/logic.py:157} 11069-INFO-user Welcome test, your unique id is 4538ce3d-2585-436e-b9ee-d67e88c1152f 
+your card status <<your balance is 3000 and will expire by 2023-02-08 20:25:42.028466>> bought onetime trip
+[2023-02-05 20:25:42,028] {/home/amin/Desktop/HW12/logic.py:213} 11069-INFO-new trip was created
+[2023-02-05 20:25:42,028] {/home/amin/Desktop/HW12/logic.py:40} 11069-ERROR-could not authenticate
+[2023-02-05 20:25:42,029] {/home/amin/Desktop/HW12/logic.py:29} 11069-INFO-user was created
+[2023-02-05 20:25:42,029] {/home/amin/Desktop/HW12/logic.py:32} 11069-ERROR-could not create user
+[2023-02-05 20:25:42,029] {/home/amin/Desktop/HW12/logic.py:32} 11069-ERROR-could not create user
+[2023-02-05 20:25:42,029] {/home/amin/Desktop/HW12/logic.py:32} 11069-ERROR-could not create user
+[2023-02-05 20:31:43,617] {/home/amin/Desktop/HW12/logic.py:189} 11349-INFO-user Welcome test, your unique id is 96b4b78a-8c67-4003-86cb-4e667777c9e7 
+your card status <<your balance is 30000 and will expire by 2023-03-07 20:31:43.617215>> bought your balance is 30000 and will expire by 2023-03-07 20:31:43.617215
+[2023-02-05 20:31:43,617] {/home/amin/Desktop/HW12/logic.py:157} 11349-INFO-user Welcome test, your unique id is 8788645c-cc7e-442d-835d-6fd79a79c8ef 
+your card status <<your balance is 3000 and will expire by 2023-02-08 20:31:43.617520>> bought onetime trip
+[2023-02-05 20:31:43,617] {/home/amin/Desktop/HW12/logic.py:189} 11349-INFO-user Welcome test, your unique id is 920f0eea-bf10-4121-9a0d-36cc6cde1913 
+your card status <<your balance is 30000 and will expire by 2023-03-07 20:31:43.617719>> bought your balance is 30000 and will expire by 2023-03-07 20:31:43.617719
+[2023-02-05 20:31:43,618] {/home/amin/Desktop/HW12/logic.py:189} 11349-INFO-user Welcome test, your unique id is 3738df20-afc8-43f2-aa14-df8fef53143c 
+your card status <<your balance is 30000 and will expire by 2023-03-07 20:31:43.618120>> bought your balance is 30000 and will expire by 2023-03-07 20:31:43.618120
+[2023-02-05 20:31:43,618] {/home/amin/Desktop/HW12/logic.py:213} 11349-INFO-new trip was created
+[2023-02-05 20:31:43,618] {/home/amin/Desktop/HW12/logic.py:40} 11349-ERROR-could not authenticate
+[2023-02-05 20:31:43,619] {/home/amin/Desktop/HW12/logic.py:29} 11349-INFO-user was created
+[2023-02-05 20:31:43,619] {/home/amin/Desktop/HW12/logic.py:32} 11349-ERROR-could not create user
+[2023-02-05 20:31:43,619] {/home/amin/Desktop/HW12/logic.py:32} 11349-ERROR-could not create user
+[2023-02-05 20:31:43,619] {/home/amin/Desktop/HW12/logic.py:32} 11349-ERROR-could not create user
+[2023-02-06 09:54:58,449] {/home/amin/Desktop/HW12/logic.py:189} 11142-INFO-user Welcome test, your unique id is af1940ba-056c-4a9e-9714-9ca3d4a8c5a6 
+your card status <<your balance is 30000 and will expire by 2023-03-08 09:54:58.449287>> bought your balance is 30000 and will expire by 2023-03-08 09:54:58.449287
+[2023-02-06 09:54:58,557] {/home/amin/Desktop/HW12/logic.py:157} 11142-INFO-user Welcome test, your unique id is 4b0dc05f-0c3a-48a1-a7a0-b2e1fd114d6d 
+your card status <<your balance is 3000 and will expire by 2023-02-09 09:54:58.557443>> bought onetime trip
+[2023-02-06 09:54:58,558] {/home/amin/Desktop/HW12/logic.py:189} 11142-INFO-user Welcome test, your unique id is bbb9ba4f-3391-4621-b293-af0c932d4d5f 
+your card status <<your balance is 30000 and will expire by 2023-03-08 09:54:58.558539>> bought your balance is 30000 and will expire by 2023-03-08 09:54:58.558539
+[2023-02-06 09:54:58,560] {/home/amin/Desktop/HW12/logic.py:189} 11142-INFO-user Welcome test, your unique id is 27d54c20-ef5a-499d-b07e-a6f6b30fcded 
+your card status <<your balance is 30000 and will expire by 2023-03-08 09:54:58.560471>> bought your balance is 30000 and will expire by 2023-03-08 09:54:58.560471
+[2023-02-06 09:54:58,560] {/home/amin/Desktop/HW12/logic.py:213} 11142-INFO-new trip was created
+[2023-02-06 09:54:58,562] {/home/amin/Desktop/HW12/logic.py:40} 11142-ERROR-could not authenticate
+[2023-02-06 09:54:58,564] {/home/amin/Desktop/HW12/logic.py:29} 11142-INFO-user was created
+[2023-02-06 09:54:58,565] {/home/amin/Desktop/HW12/logic.py:32} 11142-ERROR-could not create user
+[2023-02-06 09:54:58,565] {/home/amin/Desktop/HW12/logic.py:32} 11142-ERROR-could not create user
+[2023-02-06 09:54:58,565] {/home/amin/Desktop/HW12/logic.py:32} 11142-ERROR-could not create user
+[2023-02-06 10:07:31,038] {/home/amin/Desktop/HW12/logic.py:189} 12606-INFO-user Welcome test, your unique id is 24c254ea-1f52-429a-b4fb-7319ea0e3884 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:07:31.038607>> bought your balance is 30000 and will expire by 2023-03-08 10:07:31.038607
+[2023-02-06 10:07:31,038] {/home/amin/Desktop/HW12/logic.py:157} 12606-INFO-user Welcome test, your unique id is 12b2a18f-9c08-4221-8cdf-5d95a3303477 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:07:31.038906>> bought onetime trip
+[2023-02-06 10:07:31,039] {/home/amin/Desktop/HW12/logic.py:213} 12606-INFO-new trip was created
+[2023-02-06 10:07:31,039] {/home/amin/Desktop/HW12/logic.py:189} 12606-INFO-user Welcome test, your unique id is be79a626-7970-45f3-9aa4-9d66ad1f9bba 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:07:31.039175>> bought your balance is 30000 and will expire by 2023-03-08 10:07:31.039175
+[2023-02-06 10:07:31,039] {/home/amin/Desktop/HW12/logic.py:213} 12606-INFO-new trip was created
+[2023-02-06 10:07:31,039] {/home/amin/Desktop/HW12/logic.py:189} 12606-INFO-user Welcome test, your unique id is dfc5de6e-2bfc-4fa8-a176-e9401a84c585 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:07:31.039664>> bought your balance is 30000 and will expire by 2023-03-08 10:07:31.039664
+[2023-02-06 10:07:31,039] {/home/amin/Desktop/HW12/logic.py:213} 12606-INFO-new trip was created
+[2023-02-06 10:07:31,040] {/home/amin/Desktop/HW12/logic.py:40} 12606-ERROR-could not authenticate
+[2023-02-06 10:07:31,040] {/home/amin/Desktop/HW12/logic.py:29} 12606-INFO-user was created
+[2023-02-06 10:07:31,040] {/home/amin/Desktop/HW12/logic.py:32} 12606-ERROR-could not create user
+[2023-02-06 10:07:31,041] {/home/amin/Desktop/HW12/logic.py:32} 12606-ERROR-could not create user
+[2023-02-06 10:07:31,041] {/home/amin/Desktop/HW12/logic.py:32} 12606-ERROR-could not create user
+[2023-02-06 10:14:20,358] {/home/amin/Desktop/HW12/logic.py:189} 12943-INFO-user Welcome test, your unique id is 1867dc6d-ce63-433f-9bea-89751c2e7aa8 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:20.358874>> bought your balance is 30000 and will expire by 2023-03-08 10:14:20.358874
+[2023-02-06 10:14:20,359] {/home/amin/Desktop/HW12/logic.py:157} 12943-INFO-user Welcome test, your unique id is 859ca027-a696-473e-8176-54194e10d5fb 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:14:20.359234>> bought onetime trip
+[2023-02-06 10:14:20,359] {/home/amin/Desktop/HW12/logic.py:189} 12943-INFO-user Welcome test, your unique id is cae69a71-fb70-44c3-999d-5384a00c8729 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:20.359461>> bought your balance is 30000 and will expire by 2023-03-08 10:14:20.359461
+[2023-02-06 10:14:20,360] {/home/amin/Desktop/HW12/logic.py:189} 12943-INFO-user Welcome test, your unique id is f1bca58a-da6e-42d3-a2cb-363c27cda819 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:20.359983>> bought your balance is 30000 and will expire by 2023-03-08 10:14:20.359983
+[2023-02-06 10:14:20,360] {/home/amin/Desktop/HW12/logic.py:213} 12943-INFO-new trip was created
+[2023-02-06 10:14:20,360] {/home/amin/Desktop/HW12/logic.py:40} 12943-ERROR-could not authenticate
+[2023-02-06 10:14:20,361] {/home/amin/Desktop/HW12/logic.py:29} 12943-INFO-user was created
+[2023-02-06 10:14:20,361] {/home/amin/Desktop/HW12/logic.py:32} 12943-ERROR-could not create user
+[2023-02-06 10:14:20,361] {/home/amin/Desktop/HW12/logic.py:32} 12943-ERROR-could not create user
+[2023-02-06 10:14:20,361] {/home/amin/Desktop/HW12/logic.py:32} 12943-ERROR-could not create user
+[2023-02-06 10:14:57,923] {/home/amin/Desktop/HW12/logic.py:189} 13013-INFO-user Welcome test, your unique id is 0ef52c7c-f70a-40b9-960a-1f1b0ce88848 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:57.923326>> bought your balance is 30000 and will expire by 2023-03-08 10:14:57.923326
+[2023-02-06 10:14:57,923] {/home/amin/Desktop/HW12/logic.py:157} 13013-INFO-user Welcome test, your unique id is 23280024-d535-48ea-82d6-1ad9528ed4ba 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:14:57.923582>> bought onetime trip
+[2023-02-06 10:14:57,923] {/home/amin/Desktop/HW12/logic.py:189} 13013-INFO-user Welcome test, your unique id is 15578037-19e6-494a-88c3-23f0b931ca0a 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:57.923758>> bought your balance is 30000 and will expire by 2023-03-08 10:14:57.923758
+[2023-02-06 10:14:57,924] {/home/amin/Desktop/HW12/logic.py:189} 13013-INFO-user Welcome test, your unique id is 73496573-9f48-4c08-8554-ba4f9d68f992 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:14:57.924124>> bought your balance is 30000 and will expire by 2023-03-08 10:14:57.924124
+[2023-02-06 10:14:57,924] {/home/amin/Desktop/HW12/logic.py:213} 13013-INFO-new trip was created
+[2023-02-06 10:14:57,924] {/home/amin/Desktop/HW12/logic.py:40} 13013-ERROR-could not authenticate
+[2023-02-06 10:14:57,924] {/home/amin/Desktop/HW12/logic.py:29} 13013-INFO-user was created
+[2023-02-06 10:14:57,925] {/home/amin/Desktop/HW12/logic.py:32} 13013-ERROR-could not create user
+[2023-02-06 10:14:57,925] {/home/amin/Desktop/HW12/logic.py:32} 13013-ERROR-could not create user
+[2023-02-06 10:14:57,925] {/home/amin/Desktop/HW12/logic.py:32} 13013-ERROR-could not create user
+[2023-02-06 10:15:22,847] {/home/amin/Desktop/HW12/logic.py:189} 13071-INFO-user Welcome test, your unique id is 5b77e58d-df99-4742-bbbe-61d1bb0b9709 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:15:22.847840>> bought your balance is 30000 and will expire by 2023-03-08 10:15:22.847840
+[2023-02-06 10:15:22,848] {/home/amin/Desktop/HW12/logic.py:157} 13071-INFO-user Welcome test, your unique id is 7ca205e8-ca8f-4e31-9d7c-9ea2806b5e46 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:15:22.848114>> bought onetime trip
+[2023-02-06 10:15:22,848] {/home/amin/Desktop/HW12/logic.py:189} 13071-INFO-user Welcome test, your unique id is f728a88e-103f-486c-8416-b3f7dd8a0866 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:15:22.848274>> bought your balance is 30000 and will expire by 2023-03-08 10:15:22.848274
+[2023-02-06 10:15:22,848] {/home/amin/Desktop/HW12/logic.py:233} 13071-ERROR-the trip was not available
+[2023-02-06 10:15:22,848] {/home/amin/Desktop/HW12/logic.py:189} 13071-INFO-user Welcome test, your unique id is 8fe0346b-d64e-415e-9e39-656bcb1f75f8 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:15:22.848813>> bought your balance is 30000 and will expire by 2023-03-08 10:15:22.848813
+[2023-02-06 10:15:22,848] {/home/amin/Desktop/HW12/logic.py:213} 13071-INFO-new trip was created
+[2023-02-06 10:15:22,849] {/home/amin/Desktop/HW12/logic.py:40} 13071-ERROR-could not authenticate
+[2023-02-06 10:15:22,849] {/home/amin/Desktop/HW12/logic.py:29} 13071-INFO-user was created
+[2023-02-06 10:15:22,849] {/home/amin/Desktop/HW12/logic.py:32} 13071-ERROR-could not create user
+[2023-02-06 10:15:22,849] {/home/amin/Desktop/HW12/logic.py:32} 13071-ERROR-could not create user
+[2023-02-06 10:15:22,849] {/home/amin/Desktop/HW12/logic.py:32} 13071-ERROR-could not create user
+[2023-02-06 10:16:09,226] {/home/amin/Desktop/HW12/logic.py:189} 13162-INFO-user Welcome test, your unique id is eed4b6db-b2a3-4fb0-8d57-cba8e0aca03f 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:09.226364>> bought your balance is 30000 and will expire by 2023-03-08 10:16:09.226364
+[2023-02-06 10:16:09,226] {/home/amin/Desktop/HW12/logic.py:157} 13162-INFO-user Welcome test, your unique id is a8ffbe0a-26e6-4299-ae53-960fb2fb6816 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:16:09.226663>> bought onetime trip
+[2023-02-06 10:16:09,226] {/home/amin/Desktop/HW12/logic.py:189} 13162-INFO-user Welcome test, your unique id is ff0aa2ce-b080-427c-8a81-47eeb553a40e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:09.226861>> bought your balance is 30000 and will expire by 2023-03-08 10:16:09.226861
+[2023-02-06 10:16:09,226] {/home/amin/Desktop/HW12/logic.py:233} 13162-ERROR-the trip was not available
+[2023-02-06 10:16:09,227] {/home/amin/Desktop/HW12/logic.py:189} 13162-INFO-user Welcome test, your unique id is b8d4732e-93c7-402e-aea3-31ec5e7a227c 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:09.227480>> bought your balance is 30000 and will expire by 2023-03-08 10:16:09.227480
+[2023-02-06 10:16:09,227] {/home/amin/Desktop/HW12/logic.py:213} 13162-INFO-new trip was created
+[2023-02-06 10:16:09,227] {/home/amin/Desktop/HW12/logic.py:40} 13162-ERROR-could not authenticate
+[2023-02-06 10:16:09,228] {/home/amin/Desktop/HW12/logic.py:29} 13162-INFO-user was created
+[2023-02-06 10:16:09,228] {/home/amin/Desktop/HW12/logic.py:32} 13162-ERROR-could not create user
+[2023-02-06 10:16:09,228] {/home/amin/Desktop/HW12/logic.py:32} 13162-ERROR-could not create user
+[2023-02-06 10:16:09,228] {/home/amin/Desktop/HW12/logic.py:32} 13162-ERROR-could not create user
+[2023-02-06 10:16:29,086] {/home/amin/Desktop/HW12/logic.py:189} 13217-INFO-user Welcome test, your unique id is 6123b62d-ab90-4761-b927-5a16b4cf827e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:29.086496>> bought your balance is 30000 and will expire by 2023-03-08 10:16:29.086496
+[2023-02-06 10:16:29,086] {/home/amin/Desktop/HW12/logic.py:157} 13217-INFO-user Welcome test, your unique id is 588546a6-ab96-4446-bceb-4cc15b878f7b 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:16:29.086776>> bought onetime trip
+[2023-02-06 10:16:29,086] {/home/amin/Desktop/HW12/logic.py:189} 13217-INFO-user Welcome test, your unique id is 617f0d59-26b5-428a-95cc-6722c9b8dae8 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:29.086947>> bought your balance is 30000 and will expire by 2023-03-08 10:16:29.086947
+[2023-02-06 10:16:29,087] {/home/amin/Desktop/HW12/logic.py:242} 13217-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:16:29,087] {/home/amin/Desktop/HW12/logic.py:189} 13217-INFO-user Welcome test, your unique id is 7f147579-0e94-4167-b1ce-2e08833193b2 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:16:29.087162>> bought your balance is 30000 and will expire by 2023-03-08 10:16:29.087162
+[2023-02-06 10:16:29,087] {/home/amin/Desktop/HW12/logic.py:213} 13217-INFO-new trip was created
+[2023-02-06 10:16:29,087] {/home/amin/Desktop/HW12/logic.py:40} 13217-ERROR-could not authenticate
+[2023-02-06 10:16:29,087] {/home/amin/Desktop/HW12/logic.py:29} 13217-INFO-user was created
+[2023-02-06 10:16:29,088] {/home/amin/Desktop/HW12/logic.py:32} 13217-ERROR-could not create user
+[2023-02-06 10:16:29,088] {/home/amin/Desktop/HW12/logic.py:32} 13217-ERROR-could not create user
+[2023-02-06 10:16:29,088] {/home/amin/Desktop/HW12/logic.py:32} 13217-ERROR-could not create user
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:189} 13283-INFO-user Welcome test, your unique id is 4c781fcb-f7a8-4092-a487-a4a31dde32c8 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:17:06.408006>> bought your balance is 30000 and will expire by 2023-03-08 10:17:06.408006
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:183} 13283-ERROR-invalid amount for date charge card
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:157} 13283-INFO-user Welcome test, your unique id is 9c8df5ad-1361-4b21-9ac3-c9e9b629baf5 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:17:06.408353>> bought onetime trip
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:189} 13283-INFO-user Welcome test, your unique id is cdb91fd9-a303-43e9-bd25-329de378d442 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:17:06.408493>> bought your balance is 30000 and will expire by 2023-03-08 10:17:06.408493
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:242} 13283-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:189} 13283-INFO-user Welcome test, your unique id is 8392ef58-dce6-4f2c-8005-cd0db92ee4ca 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:17:06.408685>> bought your balance is 30000 and will expire by 2023-03-08 10:17:06.408685
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:213} 13283-INFO-new trip was created
+[2023-02-06 10:17:06,408] {/home/amin/Desktop/HW12/logic.py:40} 13283-ERROR-could not authenticate
+[2023-02-06 10:17:06,409] {/home/amin/Desktop/HW12/logic.py:29} 13283-INFO-user was created
+[2023-02-06 10:17:06,409] {/home/amin/Desktop/HW12/logic.py:32} 13283-ERROR-could not create user
+[2023-02-06 10:17:06,409] {/home/amin/Desktop/HW12/logic.py:32} 13283-ERROR-could not create user
+[2023-02-06 10:17:06,409] {/home/amin/Desktop/HW12/logic.py:32} 13283-ERROR-could not create user
+[2023-02-06 10:23:51,319] {/home/amin/Desktop/HW12/logic.py:136} 13967-ERROR-could not authenticate
+[2023-02-06 10:23:51,320] {/home/amin/Desktop/HW12/logic.py:91} 13967-ERROR-could not deposit
+[2023-02-06 10:23:51,320] {/home/amin/Desktop/HW12/logic.py:114} 13967-ERROR-invalid amount for transaction
+[2023-02-06 10:23:51,321] {/home/amin/Desktop/HW12/logic.py:106} 13967-INFO-withdrawl was successful
+[2023-02-06 10:23:51,321] {/home/amin/Desktop/HW12/logic.py:189} 13967-INFO-user Welcome test, your unique id is a27934e4-3ea2-4cf6-975d-466fdbe1a49a 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:23:51.321570>> bought your balance is 30000 and will expire by 2023-03-08 10:23:51.321570
+[2023-02-06 10:23:51,321] {/home/amin/Desktop/HW12/logic.py:183} 13967-ERROR-invalid amount for date charge card
+[2023-02-06 10:23:51,321] {/home/amin/Desktop/HW12/logic.py:157} 13967-INFO-user Welcome test, your unique id is 02fe0e31-13d5-491b-a79b-4603eedeaac3 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:23:51.321934>> bought onetime trip
+[2023-02-06 10:23:51,322] {/home/amin/Desktop/HW12/logic.py:189} 13967-INFO-user Welcome test, your unique id is bc1371d1-2eb9-4a0f-b901-16232c9edece 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:23:51.322217>> bought your balance is 30000 and will expire by 2023-03-08 10:23:51.322217
+[2023-02-06 10:23:51,322] {/home/amin/Desktop/HW12/logic.py:242} 13967-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:23:51,322] {/home/amin/Desktop/HW12/logic.py:189} 13967-INFO-user Welcome test, your unique id is 5a96c7ac-e86c-4288-8041-6dba5affcea2 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:23:51.322582>> bought your balance is 30000 and will expire by 2023-03-08 10:23:51.322582
+[2023-02-06 10:23:51,322] {/home/amin/Desktop/HW12/logic.py:213} 13967-INFO-new trip was created
+[2023-02-06 10:23:51,322] {/home/amin/Desktop/HW12/logic.py:40} 13967-ERROR-could not authenticate
+[2023-02-06 10:23:51,323] {/home/amin/Desktop/HW12/logic.py:29} 13967-INFO-user was created
+[2023-02-06 10:23:51,323] {/home/amin/Desktop/HW12/logic.py:32} 13967-ERROR-could not create user
+[2023-02-06 10:23:51,323] {/home/amin/Desktop/HW12/logic.py:32} 13967-ERROR-could not create user
+[2023-02-06 10:23:51,324] {/home/amin/Desktop/HW12/logic.py:32} 13967-ERROR-could not create user
+[2023-02-06 10:24:57,753] {/home/amin/Desktop/HW12/logic.py:136} 14025-ERROR-could not authenticate
+[2023-02-06 10:24:57,754] {/home/amin/Desktop/HW12/logic.py:136} 14025-ERROR-could not authenticate
+[2023-02-06 10:24:57,754] {/home/amin/Desktop/HW12/logic.py:91} 14025-ERROR-could not deposit
+[2023-02-06 10:24:57,754] {/home/amin/Desktop/HW12/logic.py:114} 14025-ERROR-invalid amount for transaction
+[2023-02-06 10:24:57,754] {/home/amin/Desktop/HW12/logic.py:106} 14025-INFO-withdrawl was successful
+[2023-02-06 10:24:57,755] {/home/amin/Desktop/HW12/logic.py:189} 14025-INFO-user Welcome test, your unique id is b5cb69ef-e552-4020-8a94-4cd23a3d5336 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:24:57.755273>> bought your balance is 30000 and will expire by 2023-03-08 10:24:57.755273
+[2023-02-06 10:24:57,755] {/home/amin/Desktop/HW12/logic.py:183} 14025-ERROR-invalid amount for date charge card
+[2023-02-06 10:24:57,755] {/home/amin/Desktop/HW12/logic.py:157} 14025-INFO-user Welcome test, your unique id is 8756c737-e6f4-4980-a4b9-fb92911eeb5f 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:24:57.755560>> bought onetime trip
+[2023-02-06 10:24:57,755] {/home/amin/Desktop/HW12/logic.py:189} 14025-INFO-user Welcome test, your unique id is b4371db8-6495-4485-865e-de163e5c6d4b 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:24:57.755756>> bought your balance is 30000 and will expire by 2023-03-08 10:24:57.755756
+[2023-02-06 10:24:57,755] {/home/amin/Desktop/HW12/logic.py:242} 14025-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:24:57,756] {/home/amin/Desktop/HW12/logic.py:189} 14025-INFO-user Welcome test, your unique id is 45c4acb3-25f9-49bb-a2ea-a896f3bc6366 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:24:57.756025>> bought your balance is 30000 and will expire by 2023-03-08 10:24:57.756025
+[2023-02-06 10:24:57,756] {/home/amin/Desktop/HW12/logic.py:213} 14025-INFO-new trip was created
+[2023-02-06 10:24:57,756] {/home/amin/Desktop/HW12/logic.py:40} 14025-ERROR-could not authenticate
+[2023-02-06 10:24:57,757] {/home/amin/Desktop/HW12/logic.py:29} 14025-INFO-user was created
+[2023-02-06 10:24:57,757] {/home/amin/Desktop/HW12/logic.py:32} 14025-ERROR-could not create user
+[2023-02-06 10:24:57,757] {/home/amin/Desktop/HW12/logic.py:32} 14025-ERROR-could not create user
+[2023-02-06 10:24:57,757] {/home/amin/Desktop/HW12/logic.py:32} 14025-ERROR-could not create user
+[2023-02-06 10:26:49,825] {/home/amin/Desktop/HW12/logic.py:77} 14171-INFO-a new bank account was created
+[2023-02-06 10:26:49,826] {/home/amin/Desktop/HW12/logic.py:133} 14171-INFO-user Welcome test your bank balance is <400000> logged in to bank
+[2023-02-06 10:26:49,826] {/home/amin/Desktop/HW12/logic.py:91} 14171-ERROR-could not deposit
+[2023-02-06 10:26:49,826] {/home/amin/Desktop/HW12/logic.py:114} 14171-ERROR-invalid amount for transaction
+[2023-02-06 10:26:49,826] {/home/amin/Desktop/HW12/logic.py:106} 14171-INFO-withdrawl was successful
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:189} 14171-INFO-user Welcome test, your unique id is 3deb9efb-2ac1-4680-9ce7-fc5b9edb2cc4 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:26:49.826980>> bought your balance is 30000 and will expire by 2023-03-08 10:26:49.826980
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:183} 14171-ERROR-invalid amount for date charge card
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:157} 14171-INFO-user Welcome test, your unique id is f418c552-e72f-47f3-814e-77803b1003e7 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:26:49.827296>> bought onetime trip
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:189} 14171-INFO-user Welcome test, your unique id is ee5e28aa-0c4f-4719-b145-8497bd2c198c 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:26:49.827484>> bought your balance is 30000 and will expire by 2023-03-08 10:26:49.827484
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:242} 14171-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:189} 14171-INFO-user Welcome test, your unique id is eae23d2f-73a2-452d-852d-24b5ea3e045b 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:26:49.827725>> bought your balance is 30000 and will expire by 2023-03-08 10:26:49.827725
+[2023-02-06 10:26:49,827] {/home/amin/Desktop/HW12/logic.py:213} 14171-INFO-new trip was created
+[2023-02-06 10:26:49,828] {/home/amin/Desktop/HW12/logic.py:40} 14171-ERROR-could not authenticate
+[2023-02-06 10:26:49,828] {/home/amin/Desktop/HW12/logic.py:29} 14171-INFO-user was created
+[2023-02-06 10:26:49,828] {/home/amin/Desktop/HW12/logic.py:32} 14171-ERROR-could not create user
+[2023-02-06 10:26:49,828] {/home/amin/Desktop/HW12/logic.py:32} 14171-ERROR-could not create user
+[2023-02-06 10:26:49,828] {/home/amin/Desktop/HW12/logic.py:32} 14171-ERROR-could not create user
+[2023-02-06 10:29:46,201] {/home/amin/Desktop/HW12/logic.py:77} 14361-INFO-a new bank account was created
+[2023-02-06 10:29:46,202] {/home/amin/Desktop/HW12/logic.py:91} 14361-ERROR-could not deposit
+[2023-02-06 10:29:46,202] {/home/amin/Desktop/HW12/logic.py:114} 14361-ERROR-invalid amount for transaction
+[2023-02-06 10:29:46,202] {/home/amin/Desktop/HW12/logic.py:106} 14361-INFO-withdrawl was successful
+[2023-02-06 10:29:46,202] {/home/amin/Desktop/HW12/logic.py:189} 14361-INFO-user Welcome test, your unique id is 37ad6b58-9678-4e0e-998d-7b05e92b937e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:29:46.202818>> bought your balance is 30000 and will expire by 2023-03-08 10:29:46.202818
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:183} 14361-ERROR-invalid amount for date charge card
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:157} 14361-INFO-user Welcome test, your unique id is 2de9f556-6849-4b06-8652-ce50b4a48ea1 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:29:46.203226>> bought onetime trip
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:189} 14361-INFO-user Welcome test, your unique id is bc658608-97ac-4e04-b9c8-feb919ba717e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:29:46.203465>> bought your balance is 30000 and will expire by 2023-03-08 10:29:46.203465
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:242} 14361-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:189} 14361-INFO-user Welcome test, your unique id is b8cfee1d-637a-4ce0-b01a-5670a615fe0e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:29:46.203798>> bought your balance is 30000 and will expire by 2023-03-08 10:29:46.203798
+[2023-02-06 10:29:46,203] {/home/amin/Desktop/HW12/logic.py:213} 14361-INFO-new trip was created
+[2023-02-06 10:29:46,204] {/home/amin/Desktop/HW12/logic.py:40} 14361-ERROR-could not authenticate
+[2023-02-06 10:29:46,204] {/home/amin/Desktop/HW12/logic.py:29} 14361-INFO-user was created
+[2023-02-06 10:29:46,204] {/home/amin/Desktop/HW12/logic.py:32} 14361-ERROR-could not create user
+[2023-02-06 10:29:46,204] {/home/amin/Desktop/HW12/logic.py:32} 14361-ERROR-could not create user
+[2023-02-06 10:29:46,204] {/home/amin/Desktop/HW12/logic.py:32} 14361-ERROR-could not create user
+[2023-02-06 10:33:14,973] {/home/amin/Desktop/HW12/logic.py:77} 14602-INFO-a new bank account was created
+[2023-02-06 10:33:14,974] {/home/amin/Desktop/HW12/logic.py:91} 14602-ERROR-could not deposit
+[2023-02-06 10:33:14,974] {/home/amin/Desktop/HW12/logic.py:114} 14602-ERROR-invalid amount for transaction
+[2023-02-06 10:33:14,974] {/home/amin/Desktop/HW12/logic.py:106} 14602-INFO-withdrawl was successful
+[2023-02-06 10:33:14,974] {/home/amin/Desktop/HW12/logic.py:91} 14602-ERROR-could not deposit
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:189} 14602-INFO-user Welcome test, your unique id is b636dc82-185b-444f-b595-34b3a5fe9cd3 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:33:14.975150>> bought your balance is 30000 and will expire by 2023-03-08 10:33:14.975150
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:183} 14602-ERROR-invalid amount for date charge card
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:157} 14602-INFO-user Welcome test, your unique id is d4c49bdb-1464-4e72-ae04-8db3dfe00534 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:33:14.975450>> bought onetime trip
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:189} 14602-INFO-user Welcome test, your unique id is fc833d20-0517-4793-a02d-604f9b211376 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:33:14.975621>> bought your balance is 30000 and will expire by 2023-03-08 10:33:14.975621
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:242} 14602-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:189} 14602-INFO-user Welcome test, your unique id is 8cbd1213-732a-4b72-81b8-7f97ce2a223a 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:33:14.975837>> bought your balance is 30000 and will expire by 2023-03-08 10:33:14.975837
+[2023-02-06 10:33:14,975] {/home/amin/Desktop/HW12/logic.py:213} 14602-INFO-new trip was created
+[2023-02-06 10:33:14,976] {/home/amin/Desktop/HW12/logic.py:40} 14602-ERROR-could not authenticate
+[2023-02-06 10:33:14,976] {/home/amin/Desktop/HW12/logic.py:29} 14602-INFO-user was created
+[2023-02-06 10:33:14,976] {/home/amin/Desktop/HW12/logic.py:32} 14602-ERROR-could not create user
+[2023-02-06 10:33:14,976] {/home/amin/Desktop/HW12/logic.py:32} 14602-ERROR-could not create user
+[2023-02-06 10:33:14,976] {/home/amin/Desktop/HW12/logic.py:32} 14602-ERROR-could not create user
+[2023-02-06 10:42:10,343] {/home/amin/Desktop/HW12/logic.py:77} 15378-INFO-a new bank account was created
+[2023-02-06 10:42:10,343] {/home/amin/Desktop/HW12/logic.py:94} 15378-INFO-deposit was successful
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:91} 15378-ERROR-could not deposit
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:114} 15378-ERROR-invalid amount for transaction
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:106} 15378-INFO-withdrawl was successful
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:91} 15378-ERROR-could not deposit
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:189} 15378-INFO-user Welcome test, your unique id is bfce86f6-7dcb-4563-8bad-4dce835508f5 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:10.344630>> bought your balance is 30000 and will expire by 2023-03-08 10:42:10.344630
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:183} 15378-ERROR-invalid amount for date charge card
+[2023-02-06 10:42:10,344] {/home/amin/Desktop/HW12/logic.py:157} 15378-INFO-user Welcome test, your unique id is e67ec87e-1480-4587-a4bf-5dd275161a1b 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:42:10.344902>> bought onetime trip
+[2023-02-06 10:42:10,345] {/home/amin/Desktop/HW12/logic.py:189} 15378-INFO-user Welcome test, your unique id is da3fb574-31f6-431b-b1a5-c8bc75f034ee 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:10.345119>> bought your balance is 30000 and will expire by 2023-03-08 10:42:10.345119
+[2023-02-06 10:42:10,345] {/home/amin/Desktop/HW12/logic.py:242} 15378-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:42:10,345] {/home/amin/Desktop/HW12/logic.py:189} 15378-INFO-user Welcome test, your unique id is 98de2643-92ff-4cd3-8f2d-12cdb6d600cd 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:10.345462>> bought your balance is 30000 and will expire by 2023-03-08 10:42:10.345462
+[2023-02-06 10:42:10,345] {/home/amin/Desktop/HW12/logic.py:213} 15378-INFO-new trip was created
+[2023-02-06 10:42:10,345] {/home/amin/Desktop/HW12/logic.py:40} 15378-ERROR-could not authenticate
+[2023-02-06 10:42:10,346] {/home/amin/Desktop/HW12/logic.py:29} 15378-INFO-user was created
+[2023-02-06 10:42:10,346] {/home/amin/Desktop/HW12/logic.py:32} 15378-ERROR-could not create user
+[2023-02-06 10:42:10,346] {/home/amin/Desktop/HW12/logic.py:32} 15378-ERROR-could not create user
+[2023-02-06 10:42:10,346] {/home/amin/Desktop/HW12/logic.py:32} 15378-ERROR-could not create user
+[2023-02-06 10:42:51,056] {/home/amin/Desktop/HW12/logic.py:77} 15461-INFO-a new bank account was created
+[2023-02-06 10:42:51,056] {/home/amin/Desktop/HW12/logic.py:94} 15461-INFO-deposit was successful
+[2023-02-06 10:42:51,056] {/home/amin/Desktop/HW12/logic.py:91} 15461-ERROR-could not deposit
+[2023-02-06 10:42:51,056] {/home/amin/Desktop/HW12/logic.py:114} 15461-ERROR-invalid amount for transaction
+[2023-02-06 10:42:51,056] {/home/amin/Desktop/HW12/logic.py:106} 15461-INFO-withdrawl was successful
+[2023-02-06 10:42:51,057] {/home/amin/Desktop/HW12/logic.py:91} 15461-ERROR-could not deposit
+[2023-02-06 10:42:51,057] {/home/amin/Desktop/HW12/logic.py:189} 15461-INFO-user Welcome test, your unique id is 806cf182-46bc-404a-86f6-419dc017435c 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:51.057298>> bought your balance is 30000 and will expire by 2023-03-08 10:42:51.057298
+[2023-02-06 10:42:51,057] {/home/amin/Desktop/HW12/logic.py:183} 15461-ERROR-invalid amount for date charge card
+[2023-02-06 10:42:51,057] {/home/amin/Desktop/HW12/logic.py:157} 15461-INFO-user Welcome test, your unique id is 718ec19a-68f1-4adb-a985-cff7fdd8f96d 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:42:51.057641>> bought onetime trip
+[2023-02-06 10:42:51,057] {/home/amin/Desktop/HW12/logic.py:189} 15461-INFO-user Welcome test, your unique id is 742e2bc9-8d9d-4e8e-9bf3-f0dacde94b81 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:51.057860>> bought your balance is 30000 and will expire by 2023-03-08 10:42:51.057860
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:242} 15461-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:189} 15461-INFO-user Welcome test, your unique id is 9b19b2a4-4f04-4e49-9982-c70a6576f742 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:42:51.058171>> bought your balance is 30000 and will expire by 2023-03-08 10:42:51.058171
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:213} 15461-INFO-new trip was created
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:40} 15461-ERROR-could not authenticate
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:29} 15461-INFO-user was created
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:32} 15461-ERROR-could not create user
+[2023-02-06 10:42:51,058] {/home/amin/Desktop/HW12/logic.py:32} 15461-ERROR-could not create user
+[2023-02-06 10:42:51,059] {/home/amin/Desktop/HW12/logic.py:32} 15461-ERROR-could not create user
+[2023-02-06 10:43:25,520] {/home/amin/Desktop/HW12/logic.py:77} 15532-INFO-a new bank account was created
+[2023-02-06 10:43:25,520] {/home/amin/Desktop/HW12/logic.py:94} 15532-INFO-deposit was successful
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:91} 15532-ERROR-could not deposit
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:119} 15532-ERROR-key error
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:106} 15532-INFO-withdrawl was successful
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:91} 15532-ERROR-could not deposit
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:189} 15532-INFO-user Welcome test, your unique id is 2fcb4c1d-0e52-4692-bd1e-679877794fff 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:43:25.521747>> bought your balance is 30000 and will expire by 2023-03-08 10:43:25.521747
+[2023-02-06 10:43:25,521] {/home/amin/Desktop/HW12/logic.py:183} 15532-ERROR-invalid amount for date charge card
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:157} 15532-INFO-user Welcome test, your unique id is 9f28a49f-e2fb-4c53-8465-c84510cbdfb5 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:43:25.522013>> bought onetime trip
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:189} 15532-INFO-user Welcome test, your unique id is 3e491f17-34aa-41bf-85af-8fbbf11cb333 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:43:25.522184>> bought your balance is 30000 and will expire by 2023-03-08 10:43:25.522184
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:242} 15532-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:189} 15532-INFO-user Welcome test, your unique id is 81d189a8-1fb7-426e-8dd6-8585e37d3db3 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:43:25.522426>> bought your balance is 30000 and will expire by 2023-03-08 10:43:25.522426
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:213} 15532-INFO-new trip was created
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:40} 15532-ERROR-could not authenticate
+[2023-02-06 10:43:25,522] {/home/amin/Desktop/HW12/logic.py:29} 15532-INFO-user was created
+[2023-02-06 10:43:25,523] {/home/amin/Desktop/HW12/logic.py:32} 15532-ERROR-could not create user
+[2023-02-06 10:43:25,523] {/home/amin/Desktop/HW12/logic.py:32} 15532-ERROR-could not create user
+[2023-02-06 10:43:25,523] {/home/amin/Desktop/HW12/logic.py:32} 15532-ERROR-could not create user
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:189} 15769-INFO-user Welcome test, your unique id is a0ae6b5e-623f-4325-ad9b-26088801dd98 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:11.209941>> bought your balance is 30000 and will expire by 2023-03-08 10:47:11.209941
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:183} 15769-ERROR-invalid amount for date charge card
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:157} 15769-INFO-user Welcome test, your unique id is abb49e71-5da6-4858-8bac-91a342057f83 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:47:11.210448>> bought onetime trip
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:189} 15769-INFO-user Welcome test, your unique id is b2e48c34-22b3-4c9d-b9e3-662d13e3fd1f 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:11.210655>> bought your balance is 30000 and will expire by 2023-03-08 10:47:11.210655
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:242} 15769-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:47:11,210] {/home/amin/Desktop/HW12/logic.py:189} 15769-INFO-user Welcome test, your unique id is cc6b40d3-3ca6-41bd-bd8a-9810b66da561 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:11.210949>> bought your balance is 30000 and will expire by 2023-03-08 10:47:11.210949
+[2023-02-06 10:47:11,211] {/home/amin/Desktop/HW12/logic.py:213} 15769-INFO-new trip was created
+[2023-02-06 10:47:11,211] {/home/amin/Desktop/HW12/logic.py:40} 15769-ERROR-could not authenticate
+[2023-02-06 10:47:11,212] {/home/amin/Desktop/HW12/logic.py:29} 15769-INFO-user was created
+[2023-02-06 10:47:11,212] {/home/amin/Desktop/HW12/logic.py:32} 15769-ERROR-could not create user
+[2023-02-06 10:47:11,212] {/home/amin/Desktop/HW12/logic.py:32} 15769-ERROR-could not create user
+[2023-02-06 10:47:11,212] {/home/amin/Desktop/HW12/logic.py:32} 15769-ERROR-could not create user
+[2023-02-06 10:47:23,045] {/home/amin/Desktop/HW12/logic.py:80} 15823-ERROR-could not create bank user
+[2023-02-06 10:47:23,046] {/home/amin/Desktop/HW12/logic.py:77} 15823-INFO-a new bank account was created
+[2023-02-06 10:47:23,046] {/home/amin/Desktop/HW12/logic.py:80} 15823-ERROR-could not create bank user
+[2023-02-06 10:47:23,046] {/home/amin/Desktop/HW12/logic.py:94} 15823-INFO-deposit was successful
+[2023-02-06 10:47:23,046] {/home/amin/Desktop/HW12/logic.py:91} 15823-ERROR-could not deposit
+[2023-02-06 10:47:23,047] {/home/amin/Desktop/HW12/logic.py:80} 15823-ERROR-could not create bank user
+[2023-02-06 10:47:23,047] {/home/amin/Desktop/HW12/logic.py:119} 15823-ERROR-key error
+[2023-02-06 10:47:23,047] {/home/amin/Desktop/HW12/logic.py:80} 15823-ERROR-could not create bank user
+[2023-02-06 10:47:23,047] {/home/amin/Desktop/HW12/logic.py:106} 15823-INFO-withdrawl was successful
+[2023-02-06 10:47:23,048] {/home/amin/Desktop/HW12/logic.py:91} 15823-ERROR-could not deposit
+[2023-02-06 10:47:23,048] {/home/amin/Desktop/HW12/logic.py:189} 15823-INFO-user Welcome test, your unique id is 5c4aac9e-a7e9-400e-8a98-10637214dc34 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:23.048285>> bought your balance is 30000 and will expire by 2023-03-08 10:47:23.048285
+[2023-02-06 10:47:23,048] {/home/amin/Desktop/HW12/logic.py:183} 15823-ERROR-invalid amount for date charge card
+[2023-02-06 10:47:23,048] {/home/amin/Desktop/HW12/logic.py:157} 15823-INFO-user Welcome test, your unique id is 7ef9f183-3fa6-41c7-8b88-10437ead1dd0 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:47:23.048682>> bought onetime trip
+[2023-02-06 10:47:23,049] {/home/amin/Desktop/HW12/logic.py:189} 15823-INFO-user Welcome test, your unique id is 0af8ae6f-921e-41ea-8d73-4cc0ce47e6aa 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:23.048955>> bought your balance is 30000 and will expire by 2023-03-08 10:47:23.048955
+[2023-02-06 10:47:23,049] {/home/amin/Desktop/HW12/logic.py:242} 15823-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:47:23,049] {/home/amin/Desktop/HW12/logic.py:189} 15823-INFO-user Welcome test, your unique id is 192719d1-237a-4349-9a7d-c7e51a5fa728 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:47:23.049429>> bought your balance is 30000 and will expire by 2023-03-08 10:47:23.049429
+[2023-02-06 10:47:23,049] {/home/amin/Desktop/HW12/logic.py:213} 15823-INFO-new trip was created
+[2023-02-06 10:47:23,049] {/home/amin/Desktop/HW12/logic.py:40} 15823-ERROR-could not authenticate
+[2023-02-06 10:47:23,050] {/home/amin/Desktop/HW12/logic.py:29} 15823-INFO-user was created
+[2023-02-06 10:47:23,050] {/home/amin/Desktop/HW12/logic.py:32} 15823-ERROR-could not create user
+[2023-02-06 10:47:23,050] {/home/amin/Desktop/HW12/logic.py:32} 15823-ERROR-could not create user
+[2023-02-06 10:47:23,050] {/home/amin/Desktop/HW12/logic.py:32} 15823-ERROR-could not create user
+[2023-02-06 10:51:59,930] {/home/amin/Desktop/HW12/logic.py:77} 16190-INFO-a new bank account was created
+[2023-02-06 10:51:59,931] {/home/amin/Desktop/HW12/logic.py:94} 16190-INFO-deposit was successful
+[2023-02-06 10:51:59,931] {/home/amin/Desktop/HW12/logic.py:91} 16190-ERROR-could not deposit
+[2023-02-06 10:51:59,931] {/home/amin/Desktop/HW12/logic.py:80} 16190-ERROR-could not create bank user
+[2023-02-06 10:51:59,931] {/home/amin/Desktop/HW12/logic.py:119} 16190-ERROR-key error
+[2023-02-06 10:51:59,932] {/home/amin/Desktop/HW12/logic.py:106} 16190-INFO-withdrawl was successful
+[2023-02-06 10:51:59,932] {/home/amin/Desktop/HW12/logic.py:91} 16190-ERROR-could not deposit
+[2023-02-06 10:51:59,932] {/home/amin/Desktop/HW12/logic.py:189} 16190-INFO-user Welcome test, your unique id is 7ee90738-1638-424d-b0e9-f3d59c67683c 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:51:59.932647>> bought your balance is 30000 and will expire by 2023-03-08 10:51:59.932647
+[2023-02-06 10:51:59,932] {/home/amin/Desktop/HW12/logic.py:183} 16190-ERROR-invalid amount for date charge card
+[2023-02-06 10:51:59,933] {/home/amin/Desktop/HW12/logic.py:157} 16190-INFO-user Welcome test, your unique id is 04a98f3f-f8b6-4702-aeea-7fe6cb433565 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:51:59.933121>> bought onetime trip
+[2023-02-06 10:51:59,933] {/home/amin/Desktop/HW12/logic.py:189} 16190-INFO-user Welcome test, your unique id is adc138bf-c58d-4817-b57a-8b9ad038761b 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:51:59.933427>> bought your balance is 30000 and will expire by 2023-03-08 10:51:59.933427
+[2023-02-06 10:51:59,933] {/home/amin/Desktop/HW12/logic.py:242} 16190-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:51:59,933] {/home/amin/Desktop/HW12/logic.py:189} 16190-INFO-user Welcome test, your unique id is 35dfe9b4-15ab-4bbb-95bf-a3d67c35a7e7 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:51:59.933843>> bought your balance is 30000 and will expire by 2023-03-08 10:51:59.933843
+[2023-02-06 10:51:59,934] {/home/amin/Desktop/HW12/logic.py:213} 16190-INFO-new trip was created
+[2023-02-06 10:51:59,934] {/home/amin/Desktop/HW12/logic.py:40} 16190-ERROR-could not authenticate
+[2023-02-06 10:51:59,934] {/home/amin/Desktop/HW12/logic.py:29} 16190-INFO-user was created
+[2023-02-06 10:51:59,935] {/home/amin/Desktop/HW12/logic.py:32} 16190-ERROR-could not create user
+[2023-02-06 10:51:59,935] {/home/amin/Desktop/HW12/logic.py:32} 16190-ERROR-could not create user
+[2023-02-06 10:51:59,935] {/home/amin/Desktop/HW12/logic.py:32} 16190-ERROR-could not create user
+[2023-02-06 10:56:08,024] {/home/amin/Desktop/HW12/logic.py:136} 16523-ERROR-could not authenticate
+[2023-02-06 10:56:41,379] {/home/amin/Desktop/HW12/logic.py:77} 16523-INFO-a new bank account was created
+[2023-02-06 10:56:48,874] {/home/amin/Desktop/HW12/logic.py:77} 16918-INFO-a new bank account was created
+[2023-02-06 10:56:48,875] {/home/amin/Desktop/HW12/logic.py:94} 16918-INFO-deposit was successful
+[2023-02-06 10:56:48,875] {/home/amin/Desktop/HW12/logic.py:91} 16918-ERROR-could not deposit
+[2023-02-06 10:56:48,875] {/home/amin/Desktop/HW12/logic.py:80} 16918-ERROR-could not create bank user
+[2023-02-06 10:56:48,875] {/home/amin/Desktop/HW12/logic.py:119} 16918-ERROR-key error
+[2023-02-06 10:56:48,876] {/home/amin/Desktop/HW12/logic.py:106} 16918-INFO-withdrawl was successful
+[2023-02-06 10:56:48,876] {/home/amin/Desktop/HW12/logic.py:91} 16918-ERROR-could not deposit
+[2023-02-06 10:56:48,876] {/home/amin/Desktop/HW12/logic.py:189} 16918-INFO-user Welcome test, your unique id is 785caf5a-8c53-4495-9f5f-44573fca138e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:56:48.876734>> bought your balance is 30000 and will expire by 2023-03-08 10:56:48.876734
+[2023-02-06 10:56:48,876] {/home/amin/Desktop/HW12/logic.py:183} 16918-ERROR-invalid amount for date charge card
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:157} 16918-INFO-user Welcome test, your unique id is 6013d136-2a02-4740-adcd-0f4427aae0a0 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:56:48.877038>> bought onetime trip
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:189} 16918-INFO-user Welcome test, your unique id is 875219f0-6cdc-4242-b753-f3fa6ab99d7e 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:56:48.877222>> bought your balance is 30000 and will expire by 2023-03-08 10:56:48.877222
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:242} 16918-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:189} 16918-INFO-user Welcome test, your unique id is 2421768b-5b83-474e-b50f-48a6181d0543 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:56:48.877507>> bought your balance is 30000 and will expire by 2023-03-08 10:56:48.877507
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:213} 16918-INFO-new trip was created
+[2023-02-06 10:56:48,877] {/home/amin/Desktop/HW12/logic.py:40} 16918-ERROR-could not authenticate
+[2023-02-06 10:56:48,878] {/home/amin/Desktop/HW12/logic.py:29} 16918-INFO-user was created
+[2023-02-06 10:56:48,878] {/home/amin/Desktop/HW12/logic.py:32} 16918-ERROR-could not create user
+[2023-02-06 10:56:48,878] {/home/amin/Desktop/HW12/logic.py:32} 16918-ERROR-could not create user
+[2023-02-06 10:56:48,878] {/home/amin/Desktop/HW12/logic.py:32} 16918-ERROR-could not create user
+[2023-02-06 10:57:52,043] {/home/amin/Desktop/HW12/logic.py:77} 17042-INFO-a new bank account was created
+[2023-02-06 10:57:52,044] {/home/amin/Desktop/HW12/logic.py:94} 17042-INFO-deposit was successful
+[2023-02-06 10:57:52,044] {/home/amin/Desktop/HW12/logic.py:91} 17042-ERROR-could not deposit
+[2023-02-06 10:57:52,044] {/home/amin/Desktop/HW12/logic.py:80} 17042-ERROR-could not create bank user
+[2023-02-06 10:57:52,044] {/home/amin/Desktop/HW12/logic.py:119} 17042-ERROR-key error
+[2023-02-06 10:57:52,045] {/home/amin/Desktop/HW12/logic.py:106} 17042-INFO-withdrawl was successful
+[2023-02-06 10:57:52,045] {/home/amin/Desktop/HW12/logic.py:91} 17042-ERROR-could not deposit
+[2023-02-06 10:57:52,045] {/home/amin/Desktop/HW12/logic.py:189} 17042-INFO-user Welcome test, your unique id is 73369195-d2fb-42af-9977-9b7abcb4cc63 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:57:52.045582>> bought your balance is 30000 and will expire by 2023-03-08 10:57:52.045582
+[2023-02-06 10:57:52,045] {/home/amin/Desktop/HW12/logic.py:183} 17042-ERROR-invalid amount for date charge card
+[2023-02-06 10:57:52,045] {/home/amin/Desktop/HW12/logic.py:157} 17042-INFO-user Welcome test, your unique id is 2ae37c27-f7be-4cd6-8d3e-c287eae58610 
+your card status <<your balance is 3000 and will expire by 2023-02-09 10:57:52.045934>> bought onetime trip
+[2023-02-06 10:57:52,046] {/home/amin/Desktop/HW12/logic.py:189} 17042-INFO-user Welcome test, your unique id is 20699e15-b1d5-4a0d-8fed-c76b8a082f06 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:57:52.046155>> bought your balance is 30000 and will expire by 2023-03-08 10:57:52.046155
+[2023-02-06 10:57:52,046] {/home/amin/Desktop/HW12/logic.py:242} 17042-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 10:57:52,046] {/home/amin/Desktop/HW12/logic.py:189} 17042-INFO-user Welcome test, your unique id is 69b9434a-d557-4d5d-82b3-d81f4bb3e625 
+your card status <<your balance is 30000 and will expire by 2023-03-08 10:57:52.046495>> bought your balance is 30000 and will expire by 2023-03-08 10:57:52.046495
+[2023-02-06 10:57:52,046] {/home/amin/Desktop/HW12/logic.py:213} 17042-INFO-new trip was created
+[2023-02-06 10:57:52,046] {/home/amin/Desktop/HW12/logic.py:40} 17042-ERROR-could not authenticate
+[2023-02-06 10:57:52,047] {/home/amin/Desktop/HW12/logic.py:29} 17042-INFO-user was created
+[2023-02-06 10:57:52,047] {/home/amin/Desktop/HW12/logic.py:32} 17042-ERROR-could not create user
+[2023-02-06 10:57:52,047] {/home/amin/Desktop/HW12/logic.py:32} 17042-ERROR-could not create user
+[2023-02-06 10:57:52,047] {/home/amin/Desktop/HW12/logic.py:32} 17042-ERROR-could not create user
+[2023-02-06 10:58:57,698] {/home/amin/Desktop/HW12/logic.py:133} 17145-INFO-user Welcome Amin Najari your bank balance is 500000 logged in to bank
+[2023-02-06 10:59:11,438] {/home/amin/Desktop/HW12/logic.py:124} 17145-INFO-a transaction was successful
+[2023-02-06 11:01:47,427] {/home/amin/Desktop/HW12/logic.py:77} 17633-INFO-a new bank account was created
+[2023-02-06 11:01:47,427] {/home/amin/Desktop/HW12/logic.py:94} 17633-INFO-deposit was successful
+[2023-02-06 11:01:47,427] {/home/amin/Desktop/HW12/logic.py:91} 17633-ERROR-could not deposit
+[2023-02-06 11:01:47,427] {/home/amin/Desktop/HW12/logic.py:80} 17633-ERROR-could not create bank user
+[2023-02-06 11:01:47,427] {/home/amin/Desktop/HW12/logic.py:119} 17633-ERROR-key error
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:106} 17633-INFO-withdrawl was successful
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:91} 17633-ERROR-could not deposit
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:189} 17633-INFO-user Welcome test, your unique id is 015190b7-5171-462c-abdf-2466d4bf2c02 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:01:47.428486>> bought your balance is 30000 and will expire by 2023-03-08 11:01:47.428486
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:183} 17633-ERROR-invalid amount for date charge card
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:157} 17633-INFO-user Welcome test, your unique id is f71556f8-0a92-4bfc-8fe2-d99f074a1e8f 
+your card status <<your balance is 3000 and will expire by 2023-02-09 11:01:47.428712>> bought onetime trip
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:189} 17633-INFO-user Welcome test, your unique id is fd872b7f-24de-4d7f-a847-438f6acd5511 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:01:47.428870>> bought your balance is 30000 and will expire by 2023-03-08 11:01:47.428870
+[2023-02-06 11:01:47,428] {/home/amin/Desktop/HW12/logic.py:242} 17633-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:189} 17633-INFO-user Welcome test, your unique id is d1fbfa4f-7855-4119-b187-d15101fb97ff 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:01:47.429078>> bought your balance is 30000 and will expire by 2023-03-08 11:01:47.429078
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:213} 17633-INFO-new trip was created
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:40} 17633-ERROR-could not authenticate
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:29} 17633-INFO-user was created
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:32} 17633-ERROR-could not create user
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:32} 17633-ERROR-could not create user
+[2023-02-06 11:01:47,429] {/home/amin/Desktop/HW12/logic.py:32} 17633-ERROR-could not create user
+[2023-02-06 11:14:52,853] {/home/amin/Desktop/HW12/logic.py:77} 18916-INFO-a new bank account was created
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:94} 18916-INFO-deposit was successful
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:91} 18916-ERROR-could not deposit
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:106} 18916-INFO-withdrawl was successful
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:91} 18916-ERROR-could not deposit
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:189} 18916-INFO-user Welcome test, your unique id is 75da44a2-f928-4129-b3c3-ef1401375a2b 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:14:52.854823>> bought your balance is 30000 and will expire by 2023-03-08 11:14:52.854823
+[2023-02-06 11:14:52,854] {/home/amin/Desktop/HW12/logic.py:183} 18916-ERROR-invalid amount for date charge card
+[2023-02-06 11:14:52,855] {/home/amin/Desktop/HW12/logic.py:157} 18916-INFO-user Welcome test, your unique id is 9a9204cb-008c-445f-ac9b-88e0bd0477d0 
+your card status <<your balance is 3000 and will expire by 2023-02-09 11:14:52.855184>> bought onetime trip
+[2023-02-06 11:14:52,855] {/home/amin/Desktop/HW12/logic.py:189} 18916-INFO-user Welcome test, your unique id is 850da93f-90fa-4c4a-8961-16c20db18a28 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:14:52.855408>> bought your balance is 30000 and will expire by 2023-03-08 11:14:52.855408
+[2023-02-06 11:14:52,855] {/home/amin/Desktop/HW12/logic.py:242} 18916-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 11:14:52,855] {/home/amin/Desktop/HW12/logic.py:189} 18916-INFO-user Welcome test, your unique id is ceda5ad9-11f3-4ffa-b918-4f8055fead09 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:14:52.855720>> bought your balance is 30000 and will expire by 2023-03-08 11:14:52.855720
+[2023-02-06 11:14:52,855] {/home/amin/Desktop/HW12/logic.py:213} 18916-INFO-new trip was created
+[2023-02-06 11:14:52,856] {/home/amin/Desktop/HW12/logic.py:40} 18916-ERROR-could not authenticate
+[2023-02-06 11:14:52,856] {/home/amin/Desktop/HW12/logic.py:29} 18916-INFO-user was created
+[2023-02-06 11:14:52,856] {/home/amin/Desktop/HW12/logic.py:32} 18916-ERROR-could not create user
+[2023-02-06 11:14:52,856] {/home/amin/Desktop/HW12/logic.py:32} 18916-ERROR-could not create user
+[2023-02-06 11:14:52,856] {/home/amin/Desktop/HW12/logic.py:32} 18916-ERROR-could not create user
+[2023-02-06 11:15:13,130] {/home/amin/Desktop/HW12/logic.py:77} 18973-INFO-a new bank account was created
+[2023-02-06 11:15:13,131] {/home/amin/Desktop/HW12/logic.py:133} 18973-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-06 11:15:13,131] {/home/amin/Desktop/HW12/logic.py:94} 18973-INFO-deposit was successful
+[2023-02-06 11:15:13,131] {/home/amin/Desktop/HW12/logic.py:91} 18973-ERROR-could not deposit
+[2023-02-06 11:15:13,131] {/home/amin/Desktop/HW12/logic.py:106} 18973-INFO-withdrawl was successful
+[2023-02-06 11:15:13,131] {/home/amin/Desktop/HW12/logic.py:91} 18973-ERROR-could not deposit
+[2023-02-06 11:15:13,132] {/home/amin/Desktop/HW12/logic.py:189} 18973-INFO-user Welcome test, your unique id is fcfcd6ea-8be4-44e4-b550-e13db2135288 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:13.132135>> bought your balance is 30000 and will expire by 2023-03-08 11:15:13.132135
+[2023-02-06 11:15:13,132] {/home/amin/Desktop/HW12/logic.py:183} 18973-ERROR-invalid amount for date charge card
+[2023-02-06 11:15:13,132] {/home/amin/Desktop/HW12/logic.py:157} 18973-INFO-user Welcome test, your unique id is e50a0a81-02e1-43be-91a9-2991bfc385b0 
+your card status <<your balance is 3000 and will expire by 2023-02-09 11:15:13.132488>> bought onetime trip
+[2023-02-06 11:15:13,132] {/home/amin/Desktop/HW12/logic.py:189} 18973-INFO-user Welcome test, your unique id is 743d157a-7753-40be-a7e6-80dd071ea800 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:13.132683>> bought your balance is 30000 and will expire by 2023-03-08 11:15:13.132683
+[2023-02-06 11:15:13,132] {/home/amin/Desktop/HW12/logic.py:242} 18973-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:189} 18973-INFO-user Welcome test, your unique id is fed313d4-ceb0-41b5-b68e-8f832fdee92f 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:13.132982>> bought your balance is 30000 and will expire by 2023-03-08 11:15:13.132982
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:213} 18973-INFO-new trip was created
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:40} 18973-ERROR-could not authenticate
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:29} 18973-INFO-user was created
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:32} 18973-ERROR-could not create user
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:32} 18973-ERROR-could not create user
+[2023-02-06 11:15:13,133] {/home/amin/Desktop/HW12/logic.py:32} 18973-ERROR-could not create user
+[2023-02-06 11:15:23,339] {/home/amin/Desktop/HW12/logic.py:77} 19026-INFO-a new bank account was created
+[2023-02-06 11:15:23,339] {/home/amin/Desktop/HW12/logic.py:133} 19026-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-06 11:15:23,339] {/home/amin/Desktop/HW12/logic.py:94} 19026-INFO-deposit was successful
+[2023-02-06 11:15:23,339] {/home/amin/Desktop/HW12/logic.py:91} 19026-ERROR-could not deposit
+[2023-02-06 11:15:23,339] {/home/amin/Desktop/HW12/logic.py:106} 19026-INFO-withdrawl was successful
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:91} 19026-ERROR-could not deposit
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:189} 19026-INFO-user Welcome test, your unique id is 7f4ae60d-6267-494c-a5cd-74cb0da7fec9 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:23.340239>> bought your balance is 30000 and will expire by 2023-03-08 11:15:23.340239
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:183} 19026-ERROR-invalid amount for date charge card
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:157} 19026-INFO-user Welcome test, your unique id is cf085e7b-b2bb-446d-b09f-3df90c95dfcf 
+your card status <<your balance is 3000 and will expire by 2023-02-09 11:15:23.340495>> bought onetime trip
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:189} 19026-INFO-user Welcome test, your unique id is 13bb9fe8-d348-4ff2-bfdb-7d53d2b357bc 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:23.340677>> bought your balance is 30000 and will expire by 2023-03-08 11:15:23.340677
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:242} 19026-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 11:15:23,340] {/home/amin/Desktop/HW12/logic.py:189} 19026-INFO-user Welcome test, your unique id is 90b08568-3fb4-4ec1-8f22-adb58da06612 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:15:23.340944>> bought your balance is 30000 and will expire by 2023-03-08 11:15:23.340944
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:213} 19026-INFO-new trip was created
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:40} 19026-ERROR-could not authenticate
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:29} 19026-INFO-user was created
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:32} 19026-ERROR-could not create user
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:32} 19026-ERROR-could not create user
+[2023-02-06 11:15:23,341] {/home/amin/Desktop/HW12/logic.py:32} 19026-ERROR-could not create user
+[2023-02-06 11:28:23,437] {/home/amin/Desktop/HW12/logic.py:77} 20492-INFO-a new bank account was created
+[2023-02-06 11:28:23,437] {/home/amin/Desktop/HW12/logic.py:133} 20492-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:94} 20492-INFO-deposit was successful
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:91} 20492-ERROR-could not deposit
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:106} 20492-INFO-withdrawl was successful
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:91} 20492-ERROR-could not deposit
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:189} 20492-INFO-user Welcome test, your unique id is 0986cd95-ab9d-421f-b110-244408080d8c 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:28:23.438700>> bought your balance is 30000 and will expire by 2023-03-08 11:28:23.438700
+[2023-02-06 11:28:23,438] {/home/amin/Desktop/HW12/logic.py:183} 20492-ERROR-invalid amount for date charge card
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:157} 20492-INFO-user Welcome test, your unique id is f7960095-aeee-4085-b71d-e11649b6848e 
+your card status <<your balance is 3000 and will expire by 2023-02-09 11:28:23.439021>> bought onetime trip
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:189} 20492-INFO-user Welcome test, your unique id is f5f0c0ab-fc20-4cc7-bfb6-227e003b0214 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:28:23.439289>> bought your balance is 30000 and will expire by 2023-03-08 11:28:23.439289
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:242} 20492-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:189} 20492-INFO-user Welcome test, your unique id is 19fae0b8-97fd-4fe1-80cf-d0005a8bb406 
+your card status <<your balance is 30000 and will expire by 2023-03-08 11:28:23.439605>> bought your balance is 30000 and will expire by 2023-03-08 11:28:23.439605
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:213} 20492-INFO-new trip was created
+[2023-02-06 11:28:23,439] {/home/amin/Desktop/HW12/logic.py:40} 20492-ERROR-could not authenticate
+[2023-02-06 11:28:23,440] {/home/amin/Desktop/HW12/logic.py:29} 20492-INFO-user was created
+[2023-02-06 11:28:23,440] {/home/amin/Desktop/HW12/logic.py:32} 20492-ERROR-could not create user
+[2023-02-06 11:28:23,440] {/home/amin/Desktop/HW12/logic.py:32} 20492-ERROR-could not create user
+[2023-02-06 11:28:23,440] {/home/amin/Desktop/HW12/logic.py:32} 20492-ERROR-could not create user
+[2023-02-08 19:40:47,632] {/home/amin/Desktop/HW12/logic.py:77} 35209-INFO-a new bank account was created
+[2023-02-08 19:40:47,644] {/home/amin/Desktop/HW12/logic.py:133} 35209-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 19:40:47,645] {/home/amin/Desktop/HW12/logic.py:94} 35209-INFO-deposit was successful
+[2023-02-08 19:40:47,645] {/home/amin/Desktop/HW12/logic.py:91} 35209-ERROR-could not deposit
+[2023-02-08 19:40:47,645] {/home/amin/Desktop/HW12/logic.py:106} 35209-INFO-withdrawl was successful
+[2023-02-08 19:40:47,645] {/home/amin/Desktop/HW12/logic.py:91} 35209-ERROR-could not deposit
+[2023-02-08 19:40:47,646] {/home/amin/Desktop/HW12/logic.py:189} 35209-INFO-user Welcome test, your unique id is 744a6975-7ce2-41e4-99b7-be9e4ecd468f 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:40:47.646109>> bought your balance is 30000 and will expire by 2023-03-10 19:40:47.646109
+[2023-02-08 19:40:47,646] {/home/amin/Desktop/HW12/logic.py:183} 35209-ERROR-invalid amount for date charge card
+[2023-02-08 19:40:47,646] {/home/amin/Desktop/HW12/logic.py:157} 35209-INFO-user Welcome test, your unique id is 055f80a1-acf5-4151-874f-ae933dea308d 
+your card status <<your balance is 3000 and will expire by 2023-02-11 19:40:47.646574>> bought onetime trip
+[2023-02-08 19:40:47,646] {/home/amin/Desktop/HW12/logic.py:189} 35209-INFO-user Welcome test, your unique id is 6254e523-845a-4152-bdd1-c41bb335c942 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:40:47.646922>> bought your balance is 30000 and will expire by 2023-03-10 19:40:47.646922
+[2023-02-08 19:40:47,647] {/home/amin/Desktop/HW12/logic.py:242} 35209-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 19:40:47,647] {/home/amin/Desktop/HW12/logic.py:189} 35209-INFO-user Welcome test, your unique id is e22596bc-2874-444a-bbb5-c4c44c5788eb 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:40:47.647395>> bought your balance is 30000 and will expire by 2023-03-10 19:40:47.647395
+[2023-02-08 19:40:47,647] {/home/amin/Desktop/HW12/logic.py:213} 35209-INFO-new trip was created
+[2023-02-08 19:40:47,648] {/home/amin/Desktop/HW12/logic.py:40} 35209-ERROR-could not authenticate
+[2023-02-08 19:40:47,648] {/home/amin/Desktop/HW12/logic.py:29} 35209-INFO-user was created
+[2023-02-08 19:40:47,648] {/home/amin/Desktop/HW12/logic.py:32} 35209-ERROR-could not create user
+[2023-02-08 19:40:47,648] {/home/amin/Desktop/HW12/logic.py:32} 35209-ERROR-could not create user
+[2023-02-08 19:40:47,648] {/home/amin/Desktop/HW12/logic.py:32} 35209-ERROR-could not create user
+[2023-02-08 19:46:37,626] {/home/amin/Desktop/HW12/logic.py:77} 35472-INFO-a new bank account was created
+[2023-02-08 19:46:37,626] {/home/amin/Desktop/HW12/logic.py:133} 35472-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 19:46:37,626] {/home/amin/Desktop/HW12/logic.py:94} 35472-INFO-deposit was successful
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:91} 35472-ERROR-could not deposit
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:106} 35472-INFO-withdrawl was successful
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:91} 35472-ERROR-could not deposit
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:189} 35472-INFO-user Welcome test, your unique id is 86d2de2a-9411-403f-a10f-32a9f12df2b6 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:46:37.627387>> bought your balance is 30000 and will expire by 2023-03-10 19:46:37.627387
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:183} 35472-ERROR-invalid amount for date charge card
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:157} 35472-INFO-user Welcome test, your unique id is 79455c19-fd8a-459b-9157-434c87140951 
+your card status <<your balance is 3000 and will expire by 2023-02-11 19:46:37.627642>> bought onetime trip
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:189} 35472-INFO-user Welcome test, your unique id is 73ccc3fd-a272-4bcd-8070-665b5b5c62d1 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:46:37.627806>> bought your balance is 30000 and will expire by 2023-03-10 19:46:37.627806
+[2023-02-08 19:46:37,627] {/home/amin/Desktop/HW12/logic.py:242} 35472-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:189} 35472-INFO-user Welcome test, your unique id is bbb1a0e3-0028-413e-ae18-53b3b41dd7b2 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:46:37.628035>> bought your balance is 30000 and will expire by 2023-03-10 19:46:37.628035
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:213} 35472-INFO-new trip was created
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:40} 35472-ERROR-could not authenticate
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:29} 35472-INFO-user was created
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:32} 35472-ERROR-could not create user
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:32} 35472-ERROR-could not create user
+[2023-02-08 19:46:37,628] {/home/amin/Desktop/HW12/logic.py:32} 35472-ERROR-could not create user
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:77} 35538-INFO-a new bank account was created
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:133} 35538-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:136} 35538-ERROR-could not authenticate
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:94} 35538-INFO-deposit was successful
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:91} 35538-ERROR-could not deposit
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:106} 35538-INFO-withdrawl was successful
+[2023-02-08 19:47:01,913] {/home/amin/Desktop/HW12/logic.py:91} 35538-ERROR-could not deposit
+[2023-02-08 19:47:01,914] {/home/amin/Desktop/HW12/logic.py:189} 35538-INFO-user Welcome test, your unique id is f6bb8c2a-0a1a-4fbd-b039-e936bff7af1f 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:01.914102>> bought your balance is 30000 and will expire by 2023-03-10 19:47:01.914102
+[2023-02-08 19:47:01,914] {/home/amin/Desktop/HW12/logic.py:183} 35538-ERROR-invalid amount for date charge card
+[2023-02-08 19:47:01,914] {/home/amin/Desktop/HW12/logic.py:157} 35538-INFO-user Welcome test, your unique id is 4b5e7d3c-c3b2-4b74-a2ad-b650168dbc90 
+your card status <<your balance is 3000 and will expire by 2023-02-11 19:47:01.914477>> bought onetime trip
+[2023-02-08 19:47:01,914] {/home/amin/Desktop/HW12/logic.py:189} 35538-INFO-user Welcome test, your unique id is 55bf9294-5a51-4e45-a8e9-585b977350ff 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:01.914735>> bought your balance is 30000 and will expire by 2023-03-10 19:47:01.914735
+[2023-02-08 19:47:01,914] {/home/amin/Desktop/HW12/logic.py:242} 35538-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:189} 35538-INFO-user Welcome test, your unique id is 2177f4f4-5815-46b2-8015-abb9ba88989d 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:01.915074>> bought your balance is 30000 and will expire by 2023-03-10 19:47:01.915074
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:213} 35538-INFO-new trip was created
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:40} 35538-ERROR-could not authenticate
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:29} 35538-INFO-user was created
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:32} 35538-ERROR-could not create user
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:32} 35538-ERROR-could not create user
+[2023-02-08 19:47:01,915] {/home/amin/Desktop/HW12/logic.py:32} 35538-ERROR-could not create user
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:77} 35591-INFO-a new bank account was created
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:133} 35591-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:136} 35591-ERROR-could not authenticate
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:94} 35591-INFO-deposit was successful
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:91} 35591-ERROR-could not deposit
+[2023-02-08 19:47:43,992] {/home/amin/Desktop/HW12/logic.py:80} 35591-ERROR-could not create bank user
+[2023-02-08 19:47:43,993] {/home/amin/Desktop/HW12/logic.py:119} 35591-ERROR-key error
+[2023-02-08 19:47:43,993] {/home/amin/Desktop/HW12/logic.py:106} 35591-INFO-withdrawl was successful
+[2023-02-08 19:47:43,993] {/home/amin/Desktop/HW12/logic.py:91} 35591-ERROR-could not deposit
+[2023-02-08 19:47:43,993] {/home/amin/Desktop/HW12/logic.py:189} 35591-INFO-user Welcome test, your unique id is a65fb628-e4b5-4abe-83fd-eb2751e0bd31 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:43.993941>> bought your balance is 30000 and will expire by 2023-03-10 19:47:43.993941
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:183} 35591-ERROR-invalid amount for date charge card
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:157} 35591-INFO-user Welcome test, your unique id is b8875187-6edd-40b5-99ba-2364db69cbff 
+your card status <<your balance is 3000 and will expire by 2023-02-11 19:47:43.994237>> bought onetime trip
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:189} 35591-INFO-user Welcome test, your unique id is 65ce5375-1b96-4761-8dea-81cf30874e47 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:43.994469>> bought your balance is 30000 and will expire by 2023-03-10 19:47:43.994469
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:242} 35591-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:189} 35591-INFO-user Welcome test, your unique id is be5425f8-4f4a-4739-9a30-353acf4d9217 
+your card status <<your balance is 30000 and will expire by 2023-03-10 19:47:43.994772>> bought your balance is 30000 and will expire by 2023-03-10 19:47:43.994772
+[2023-02-08 19:47:43,994] {/home/amin/Desktop/HW12/logic.py:213} 35591-INFO-new trip was created
+[2023-02-08 19:47:43,995] {/home/amin/Desktop/HW12/logic.py:40} 35591-ERROR-could not authenticate
+[2023-02-08 19:47:43,995] {/home/amin/Desktop/HW12/logic.py:29} 35591-INFO-user was created
+[2023-02-08 19:47:43,995] {/home/amin/Desktop/HW12/logic.py:32} 35591-ERROR-could not create user
+[2023-02-08 19:47:43,995] {/home/amin/Desktop/HW12/logic.py:32} 35591-ERROR-could not create user
+[2023-02-08 19:47:43,995] {/home/amin/Desktop/HW12/logic.py:32} 35591-ERROR-could not create user
+[2023-02-08 20:11:04,823] {/home/amin/Desktop/HW12/logic.py:78} 36481-INFO-a new bank account was created
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:134} 36481-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:137} 36481-ERROR-could not authenticate
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:95} 36481-INFO-deposit was successful
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:92} 36481-ERROR-could not deposit
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:81} 36481-ERROR-could not create bank user
+[2023-02-08 20:11:04,824] {/home/amin/Desktop/HW12/logic.py:120} 36481-ERROR-key error
+[2023-02-08 20:11:04,825] {/home/amin/Desktop/HW12/logic.py:107} 36481-INFO-withdrawl was successful
+[2023-02-08 20:11:04,825] {/home/amin/Desktop/HW12/logic.py:92} 36481-ERROR-could not deposit
+[2023-02-08 20:11:04,825] {/home/amin/Desktop/HW12/logic.py:190} 36481-INFO-user Welcome test, your unique id is b4744149-d055-4075-8adf-4ca16ff464c2 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:11:04.825561>> bought your balance is 30000 and will expire by 2023-03-10 20:11:04.825561
+[2023-02-08 20:11:04,825] {/home/amin/Desktop/HW12/logic.py:184} 36481-ERROR-invalid amount for date charge card
+[2023-02-08 20:11:04,825] {/home/amin/Desktop/HW12/logic.py:158} 36481-INFO-user Welcome test, your unique id is 70c98a2b-6668-4ec7-8e22-797f0717e6b5 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:11:04.825916>> bought onetime trip
+[2023-02-08 20:11:04,826] {/home/amin/Desktop/HW12/logic.py:190} 36481-INFO-user Welcome test, your unique id is e0658fa1-fffa-4b24-b5ef-f3e4f1a04ae8 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:11:04.826255>> bought your balance is 30000 and will expire by 2023-03-10 20:11:04.826255
+[2023-02-08 20:11:04,826] {/home/amin/Desktop/HW12/logic.py:243} 36481-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:11:04,826] {/home/amin/Desktop/HW12/logic.py:190} 36481-INFO-user Welcome test, your unique id is d45bbcd9-8a65-4d56-8fd2-1c34cb01e638 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:11:04.826711>> bought your balance is 30000 and will expire by 2023-03-10 20:11:04.826711
+[2023-02-08 20:11:04,826] {/home/amin/Desktop/HW12/logic.py:214} 36481-INFO-new trip was created
+[2023-02-08 20:11:04,827] {/home/amin/Desktop/HW12/logic.py:40} 36481-ERROR-could not authenticate
+[2023-02-08 20:11:04,827] {/home/amin/Desktop/HW12/logic.py:29} 36481-INFO-user was created
+[2023-02-08 20:11:04,827] {/home/amin/Desktop/HW12/logic.py:32} 36481-ERROR-could not create user
+[2023-02-08 20:11:04,827] {/home/amin/Desktop/HW12/logic.py:32} 36481-ERROR-could not create user
+[2023-02-08 20:11:04,827] {/home/amin/Desktop/HW12/logic.py:32} 36481-ERROR-could not create user
+[2023-02-08 20:13:37,029] {/home/amin/Desktop/HW12/logic.py:95} 36611-INFO-deposit was successful
+[2023-02-08 20:13:37,029] {/home/amin/Desktop/HW12/logic.py:92} 36611-ERROR-could not deposit
+[2023-02-08 20:13:37,031] {/home/amin/Desktop/HW12/logic.py:81} 36611-ERROR-could not create bank user
+[2023-02-08 20:13:37,031] {/home/amin/Desktop/HW12/logic.py:120} 36611-ERROR-key error
+[2023-02-08 20:13:37,033] {/home/amin/Desktop/HW12/logic.py:107} 36611-INFO-withdrawl was successful
+[2023-02-08 20:13:37,033] {/home/amin/Desktop/HW12/logic.py:92} 36611-ERROR-could not deposit
+[2023-02-08 20:13:37,034] {/home/amin/Desktop/HW12/logic.py:78} 36611-INFO-a new bank account was created
+[2023-02-08 20:13:37,034] {/home/amin/Desktop/HW12/logic.py:134} 36611-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 20:13:37,034] {/home/amin/Desktop/HW12/logic.py:137} 36611-ERROR-could not authenticate
+[2023-02-08 20:13:37,035] {/home/amin/Desktop/HW12/logic.py:190} 36611-INFO-user Welcome test, your unique id is 97ec5872-c42c-4237-8db9-c0535808aa4f 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:13:37.035106>> bought your balance is 30000 and will expire by 2023-03-10 20:13:37.035106
+[2023-02-08 20:13:37,035] {/home/amin/Desktop/HW12/logic.py:184} 36611-ERROR-invalid amount for date charge card
+[2023-02-08 20:13:37,035] {/home/amin/Desktop/HW12/logic.py:158} 36611-INFO-user Welcome test, your unique id is 97fc825c-e3dd-4256-bfbe-5bd274d46234 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:13:37.035580>> bought onetime trip
+[2023-02-08 20:13:37,035] {/home/amin/Desktop/HW12/logic.py:190} 36611-INFO-user Welcome test, your unique id is e2827ffb-8747-41fa-817a-e300702ca7e9 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:13:37.035934>> bought your balance is 30000 and will expire by 2023-03-10 20:13:37.035934
+[2023-02-08 20:13:37,036] {/home/amin/Desktop/HW12/logic.py:243} 36611-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:13:37,036] {/home/amin/Desktop/HW12/logic.py:190} 36611-INFO-user Welcome test, your unique id is 99dcb5ed-20ad-497b-92e0-4234aa61e985 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:13:37.036347>> bought your balance is 30000 and will expire by 2023-03-10 20:13:37.036347
+[2023-02-08 20:13:37,036] {/home/amin/Desktop/HW12/logic.py:214} 36611-INFO-new trip was created
+[2023-02-08 20:13:37,036] {/home/amin/Desktop/HW12/logic.py:40} 36611-ERROR-could not authenticate
+[2023-02-08 20:13:37,037] {/home/amin/Desktop/HW12/logic.py:29} 36611-INFO-user was created
+[2023-02-08 20:13:37,037] {/home/amin/Desktop/HW12/logic.py:32} 36611-ERROR-could not create user
+[2023-02-08 20:13:37,037] {/home/amin/Desktop/HW12/logic.py:32} 36611-ERROR-could not create user
+[2023-02-08 20:13:37,037] {/home/amin/Desktop/HW12/logic.py:32} 36611-ERROR-could not create user
+[2023-02-08 20:14:07,810] {/home/amin/Desktop/HW12/logic.py:95} 36663-INFO-deposit was successful
+[2023-02-08 20:14:07,810] {/home/amin/Desktop/HW12/logic.py:92} 36663-ERROR-could not deposit
+[2023-02-08 20:14:07,810] {/home/amin/Desktop/HW12/logic.py:81} 36663-ERROR-could not create bank user
+[2023-02-08 20:14:07,810] {/home/amin/Desktop/HW12/logic.py:120} 36663-ERROR-key error
+[2023-02-08 20:14:07,811] {/home/amin/Desktop/HW12/logic.py:107} 36663-INFO-withdrawl was successful
+[2023-02-08 20:14:07,811] {/home/amin/Desktop/HW12/logic.py:92} 36663-ERROR-could not deposit
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:78} 36663-INFO-a new bank account was created
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:81} 36663-ERROR-could not create bank user
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:134} 36663-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:137} 36663-ERROR-could not authenticate
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:190} 36663-INFO-user Welcome test, your unique id is 816f31c0-26d7-4408-b626-ddb4b34fd6c9 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:07.812587>> bought your balance is 30000 and will expire by 2023-03-10 20:14:07.812587
+[2023-02-08 20:14:07,812] {/home/amin/Desktop/HW12/logic.py:184} 36663-ERROR-invalid amount for date charge card
+[2023-02-08 20:14:07,813] {/home/amin/Desktop/HW12/logic.py:158} 36663-INFO-user Welcome test, your unique id is 5e4fb2bd-14b4-4209-bd82-a860031f3bd2 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:14:07.813011>> bought onetime trip
+[2023-02-08 20:14:07,813] {/home/amin/Desktop/HW12/logic.py:190} 36663-INFO-user Welcome test, your unique id is 4b07943b-6a8c-4d23-8a3f-52dc361a0faa 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:07.813359>> bought your balance is 30000 and will expire by 2023-03-10 20:14:07.813359
+[2023-02-08 20:14:07,813] {/home/amin/Desktop/HW12/logic.py:243} 36663-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:14:07,813] {/home/amin/Desktop/HW12/logic.py:190} 36663-INFO-user Welcome test, your unique id is 5fb46f81-483d-417a-897a-d272f5af9e04 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:07.813818>> bought your balance is 30000 and will expire by 2023-03-10 20:14:07.813818
+[2023-02-08 20:14:07,813] {/home/amin/Desktop/HW12/logic.py:214} 36663-INFO-new trip was created
+[2023-02-08 20:14:07,814] {/home/amin/Desktop/HW12/logic.py:40} 36663-ERROR-could not authenticate
+[2023-02-08 20:14:07,814] {/home/amin/Desktop/HW12/logic.py:29} 36663-INFO-user was created
+[2023-02-08 20:14:07,814] {/home/amin/Desktop/HW12/logic.py:32} 36663-ERROR-could not create user
+[2023-02-08 20:14:07,814] {/home/amin/Desktop/HW12/logic.py:32} 36663-ERROR-could not create user
+[2023-02-08 20:14:07,814] {/home/amin/Desktop/HW12/logic.py:32} 36663-ERROR-could not create user
+[2023-02-08 20:14:31,357] {/home/amin/Desktop/HW12/logic.py:95} 36712-INFO-deposit was successful
+[2023-02-08 20:14:31,357] {/home/amin/Desktop/HW12/logic.py:92} 36712-ERROR-could not deposit
+[2023-02-08 20:14:31,358] {/home/amin/Desktop/HW12/logic.py:81} 36712-ERROR-could not create bank user
+[2023-02-08 20:14:31,358] {/home/amin/Desktop/HW12/logic.py:120} 36712-ERROR-key error
+[2023-02-08 20:14:31,358] {/home/amin/Desktop/HW12/logic.py:107} 36712-INFO-withdrawl was successful
+[2023-02-08 20:14:31,359] {/home/amin/Desktop/HW12/logic.py:92} 36712-ERROR-could not deposit
+[2023-02-08 20:14:31,359] {/home/amin/Desktop/HW12/logic.py:81} 36712-ERROR-could not create bank user
+[2023-02-08 20:14:31,359] {/home/amin/Desktop/HW12/logic.py:137} 36712-ERROR-could not authenticate
+[2023-02-08 20:14:31,359] {/home/amin/Desktop/HW12/logic.py:190} 36712-INFO-user Welcome test, your unique id is 7aa2a817-d317-4801-8e51-d86eaabbccdb 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:31.359852>> bought your balance is 30000 and will expire by 2023-03-10 20:14:31.359852
+[2023-02-08 20:14:31,360] {/home/amin/Desktop/HW12/logic.py:184} 36712-ERROR-invalid amount for date charge card
+[2023-02-08 20:14:31,360] {/home/amin/Desktop/HW12/logic.py:158} 36712-INFO-user Welcome test, your unique id is 9e937407-1dc3-45ea-a5da-c31a131c5f70 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:14:31.360386>> bought onetime trip
+[2023-02-08 20:14:31,361] {/home/amin/Desktop/HW12/logic.py:190} 36712-INFO-user Welcome test, your unique id is 613ba765-d455-4a96-821e-b685603a4d47 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:31.361084>> bought your balance is 30000 and will expire by 2023-03-10 20:14:31.361084
+[2023-02-08 20:14:31,361] {/home/amin/Desktop/HW12/logic.py:243} 36712-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:14:31,362] {/home/amin/Desktop/HW12/logic.py:190} 36712-INFO-user Welcome test, your unique id is 62f31c05-8bcb-4bcc-8313-b4723e595f1d 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:14:31.362065>> bought your balance is 30000 and will expire by 2023-03-10 20:14:31.362065
+[2023-02-08 20:14:31,362] {/home/amin/Desktop/HW12/logic.py:214} 36712-INFO-new trip was created
+[2023-02-08 20:14:31,362] {/home/amin/Desktop/HW12/logic.py:40} 36712-ERROR-could not authenticate
+[2023-02-08 20:14:31,363] {/home/amin/Desktop/HW12/logic.py:29} 36712-INFO-user was created
+[2023-02-08 20:14:31,363] {/home/amin/Desktop/HW12/logic.py:32} 36712-ERROR-could not create user
+[2023-02-08 20:14:31,363] {/home/amin/Desktop/HW12/logic.py:32} 36712-ERROR-could not create user
+[2023-02-08 20:14:31,363] {/home/amin/Desktop/HW12/logic.py:32} 36712-ERROR-could not create user
+[2023-02-08 20:16:02,128] {/home/amin/Desktop/HW12/logic.py:95} 36821-INFO-deposit was successful
+[2023-02-08 20:16:02,128] {/home/amin/Desktop/HW12/logic.py:92} 36821-ERROR-could not deposit
+[2023-02-08 20:16:02,128] {/home/amin/Desktop/HW12/logic.py:81} 36821-ERROR-could not create bank user
+[2023-02-08 20:16:02,128] {/home/amin/Desktop/HW12/logic.py:120} 36821-ERROR-key error
+[2023-02-08 20:16:02,129] {/home/amin/Desktop/HW12/logic.py:107} 36821-INFO-withdrawl was successful
+[2023-02-08 20:16:02,129] {/home/amin/Desktop/HW12/logic.py:92} 36821-ERROR-could not deposit
+[2023-02-08 20:16:02,129] {/home/amin/Desktop/HW12/logic.py:78} 36821-INFO-a new bank account was created
+[2023-02-08 20:16:02,130] {/home/amin/Desktop/HW12/logic.py:137} 36821-ERROR-could not authenticate
+[2023-02-08 20:16:02,130] {/home/amin/Desktop/HW12/logic.py:190} 36821-INFO-user Welcome test, your unique id is b2f4876d-8a23-4de8-b327-f8c069b7275d 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:02.130342>> bought your balance is 30000 and will expire by 2023-03-10 20:16:02.130342
+[2023-02-08 20:16:02,130] {/home/amin/Desktop/HW12/logic.py:184} 36821-ERROR-invalid amount for date charge card
+[2023-02-08 20:16:02,130] {/home/amin/Desktop/HW12/logic.py:158} 36821-INFO-user Welcome test, your unique id is 3e2962df-2a27-4684-aae3-b0b7fee188e3 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:16:02.130728>> bought onetime trip
+[2023-02-08 20:16:02,131] {/home/amin/Desktop/HW12/logic.py:190} 36821-INFO-user Welcome test, your unique id is 2d15ab1c-18f8-4d9c-941b-b6f40789f365 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:02.131228>> bought your balance is 30000 and will expire by 2023-03-10 20:16:02.131228
+[2023-02-08 20:16:02,131] {/home/amin/Desktop/HW12/logic.py:243} 36821-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:16:02,131] {/home/amin/Desktop/HW12/logic.py:190} 36821-INFO-user Welcome test, your unique id is 3382f1b8-39c6-4c01-acb6-3f40ff16017a 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:02.131672>> bought your balance is 30000 and will expire by 2023-03-10 20:16:02.131672
+[2023-02-08 20:16:02,131] {/home/amin/Desktop/HW12/logic.py:214} 36821-INFO-new trip was created
+[2023-02-08 20:16:02,132] {/home/amin/Desktop/HW12/logic.py:40} 36821-ERROR-could not authenticate
+[2023-02-08 20:16:02,132] {/home/amin/Desktop/HW12/logic.py:29} 36821-INFO-user was created
+[2023-02-08 20:16:02,132] {/home/amin/Desktop/HW12/logic.py:32} 36821-ERROR-could not create user
+[2023-02-08 20:16:02,132] {/home/amin/Desktop/HW12/logic.py:32} 36821-ERROR-could not create user
+[2023-02-08 20:16:02,132] {/home/amin/Desktop/HW12/logic.py:32} 36821-ERROR-could not create user
+[2023-02-08 20:16:29,212] {/home/amin/Desktop/HW12/logic.py:95} 36909-INFO-deposit was successful
+[2023-02-08 20:16:29,212] {/home/amin/Desktop/HW12/logic.py:92} 36909-ERROR-could not deposit
+[2023-02-08 20:16:29,212] {/home/amin/Desktop/HW12/logic.py:78} 36909-INFO-a new bank account was created
+[2023-02-08 20:16:29,212] {/home/amin/Desktop/HW12/logic.py:125} 36909-INFO-a transaction was successful
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:128} 36909-ERROR-not enough money for transaction
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:107} 36909-INFO-withdrawl was successful
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:92} 36909-ERROR-could not deposit
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:78} 36909-INFO-a new bank account was created
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:134} 36909-INFO-user Welcome test your bank balance is 400000 logged in to bank
+[2023-02-08 20:16:29,213] {/home/amin/Desktop/HW12/logic.py:137} 36909-ERROR-could not authenticate
+[2023-02-08 20:16:29,214] {/home/amin/Desktop/HW12/logic.py:190} 36909-INFO-user Welcome test, your unique id is 8cac4567-e0bb-4e8c-b5e9-d36f0a2135af 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:29.214171>> bought your balance is 30000 and will expire by 2023-03-10 20:16:29.214171
+[2023-02-08 20:16:29,214] {/home/amin/Desktop/HW12/logic.py:184} 36909-ERROR-invalid amount for date charge card
+[2023-02-08 20:16:29,214] {/home/amin/Desktop/HW12/logic.py:158} 36909-INFO-user Welcome test, your unique id is 666e6c44-a21c-4703-a4ad-4443aef1158b 
+your card status <<your balance is 3000 and will expire by 2023-02-11 20:16:29.214567>> bought onetime trip
+[2023-02-08 20:16:29,214] {/home/amin/Desktop/HW12/logic.py:190} 36909-INFO-user Welcome test, your unique id is 4e5ccebe-f36b-4ec2-8c94-0b72e0bf1447 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:29.214823>> bought your balance is 30000 and will expire by 2023-03-10 20:16:29.214823
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:243} 36909-INFO-trip from karaj to tehran departure at 24 <price:3000>  was bought
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:190} 36909-INFO-user Welcome test, your unique id is 4dbed17b-224b-408e-8103-193f465608a0 
+your card status <<your balance is 30000 and will expire by 2023-03-10 20:16:29.215303>> bought your balance is 30000 and will expire by 2023-03-10 20:16:29.215303
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:214} 36909-INFO-new trip was created
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:40} 36909-ERROR-could not authenticate
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:29} 36909-INFO-user was created
+[2023-02-08 20:16:29,215] {/home/amin/Desktop/HW12/logic.py:32} 36909-ERROR-could not create user
+[2023-02-08 20:16:29,216] {/home/amin/Desktop/HW12/logic.py:32} 36909-ERROR-could not create user
+[2023-02-08 20:16:29,216] {/home/amin/Desktop/HW12/logic.py:32} 36909-ERROR-could not create user
+[2023-02-08 20:19:59,502] {/home/amin/Desktop/HW12/logic.py:48} 37154-INFO-admin logged in
+[2023-02-08 20:22:18,561] {/home/amin/Desktop/HW12/logic.py:38} 37154-INFO-Welcome Amin Najari, your unique id is fafec0ca-3290-4cfb-8754-742bf3984c93 
+your card status <<None>> logged in
+[2023-02-08 20:22:55,580] {/home/amin/Desktop/HW12/logic.py:234} 37154-ERROR-the trip was not available
+[2023-02-08 20:27:19,152] {/home/amin/Desktop/HW12/logic.py:38} 37154-INFO-Welcome Amin Najari, your unique id is fafec0ca-3290-4cfb-8754-742bf3984c93 
+your card status <<None>> logged in
+[2023-02-08 21:04:33,880] {/home/amin/Desktop/HW12/logic.py:134} 39627-INFO-user Welcome Amin Najari your bank balance is 495000 logged in to bank
